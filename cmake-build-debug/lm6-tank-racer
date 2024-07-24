@@ -1,0 +1,941 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+<head>
+    <!--  @formatter:off-->
+    <style>
+        #qc-cmp2-ui .qc-cmp2-home-button,#qc-cmp2-ui h2{font-family:MetronicProCSB,"Arial Black"!important;font-weight:400}#qc-cmp2-ui figure .logo-container{width:300px;height:60px}#qc-cmp2-ui h2{margin-bottom:7px!important;text-transform:uppercase}#qc-cmp2-ui .qc-cmp2-footer{box-shadow:none}#qc-cmp2-ui button[mode=primary],#qc-cmp2-ui button[mode=secondary]{font-family:MetronicProCSB,"Arial Black"!important;font-size:18px;border-radius:0}#qc-cmp2-ui button[mode=primary]{border:2px solid #32220b;box-shadow:3px 3px 0 #32220b}#qc-cmp2-ui .qc-cmp2-home-button,#qc-cmp2-ui button[mode=secondary]{box-shadow:3px 3px 0 rgba(0,0,0,.1)}.qc-cmp2-summary-buttons button:first-child{background:#fff;color:#405e85}.qc-cmp2-summary-buttons button:last-child{background:#3681de;color:#fff}.qc-cmp2-summary-buttons button span{padding-top:2px!important;font-family:MetronicProCSB,"Arial Black"!important}.qc-cmp2-summary-buttons button:hover{box-shadow:3px 3px 0 rgba(0,0,0,.25)!important;color:#fff!important;background:#2f73c5!important;cursor:pointer}.qc-cmp2-summary-buttons button span:hover{cursor:pointer}#qc-cmp2-ui .qc-cmp2-buttons-desktop button{font-size:16px}#qc-cmp2-ui{border:4px solid #32220b;box-shadow:3px 3px 0 #32220b}#qc-cmp2-ui .qc-cmp2-home-button{background:#fff;font-size:18px;border-radius:0;padding:5px 10px}@media (max-width:475px){#qc-cmp2-ui .qc-cmp2-link-inline{font-size:1em}}@media (min-width:768px){#qc-cmp2-ui{max-height:80vh}}
+    </style>
+    <!-- InMobi Choice. Consent Manager Tag v3.0 (for TCF 2.2) -->
+    <script type="text/javascript" async=true>
+        !function(){var e=window.location.hostname,t=document.createElement("script"),a=document.getElementsByTagName("script")[0],i="https://cmp.inmobi.com".concat("/choice/","1v2aYhFqnuEGn","/",e,"/choice.js?tag_version=V3"),n=0;t.async=!0,t.type="text/javascript",t.src=i,a.parentNode.insertBefore(t,a),!function e(){for(var t,a="__tcfapiLocator",i=[],n=window;n;){try{if(n.frames[a]){t=n;break}}catch(s){}if(n===window.top)break;n=n.parent}t||(!function e(){var t=n.document,i=!!n.frames[a];if(!i){if(t.body){var s=t.createElement("iframe");s.style.cssText="display:none",s.name=a,t.body.appendChild(s)}else setTimeout(e,5)}return!i}(),n.__tcfapi=function e(){var t,a=arguments;if(!a.length)return i;if("setGdprApplies"===a[0])a.length>3&&2===a[2]&&"boolean"==typeof a[3]&&(t=a[3],"function"==typeof a[2]&&a[2]("set",!0));else if("ping"===a[0]){var n={gdprApplies:t,cmpLoaded:!1,cmpStatus:"stub"};"function"==typeof a[2]&&a[2](n)}else"init"===a[0]&&"object"==typeof a[3]&&(a[3]=Object.assign(a[3],{tag_version:"V3"})),i.push(a)},n.addEventListener("message",function e(t){var a="string"==typeof t.data,i={};try{i=a?JSON.parse(t.data):t.data}catch(n){}var s=i.__tcfapiCall;s&&window.__tcfapi(s.command,s.version,function(e,i){var n={__tcfapiReturn:{returnValue:e,success:i,callId:s.callId}};a&&(n=JSON.stringify(n)),t&&t.source&&t.source.postMessage&&t.source.postMessage(n,"*")},s.parameter)},!1))}();var s=function(){var e=arguments;typeof window.__uspapi!==s&&setTimeout(function(){void 0!==window.__uspapi&&window.__uspapi.apply(window.__uspapi,e)},500)},p=function(){n++,window.__uspapi===s&&n<3?console.warn("USP is not accessible"):clearInterval(r)};if(void 0===window.__uspapi){window.__uspapi=s;var r=setInterval(p,6e3)}}();
+    </script>
+    <!-- End InMobi Choice. Consent Manager Tag v3.0 (for TCF 2.2) -->
+
+            <script data-cfasync="false" type="text/javascript">
+            (()=>{"use strict";var t={455:(t,e,n)=>{n.d(e,{Z:()=>c});var r=n(81),o=n.n(r),i=n(645),a=n.n(i)()(o());a.push([t.id,'div._2e0r68{position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,.4);z-index:999999}div._2e0r68 *{box-sizing:border-box}div._2e0r68 div._1b2ogky{position:fixed;top:50%;left:50%;transform:translate(-50%, -50%);display:flex;flex-direction:column;justify-content:flex-start;min-height:25vh;width:50%;background-color:#fff;border:none;border-radius:1em;box-shadow:0 0 10px rgba(0,0,0,.3);text-align:center;font-size:13px;font-family:Arial,Helvetica,sans-serif;font-weight:bold;line-height:2;color:#000}div._2e0r68 div._1b2ogky *:before,div._2e0r68 div._1b2ogky *:after{content:"";display:none}@media screen and (max-width: 479px){div._2e0r68 div._1b2ogky{font-size:13px;width:90%}}@media screen and (min-width: 480px){div._2e0r68 div._1b2ogky{font-size:14px;width:80%}}@media screen and (min-width: 608px){div._2e0r68 div._1b2ogky{font-size:14px;width:70%}}@media screen and (min-width: 960px){div._2e0r68 div._1b2ogky{font-size:16px;width:70%}}@media screen and (min-width: 1200px){div._2e0r68 div._1b2ogky{font-size:16px;width:840px}}div._2e0r68 div._1b2ogky header{width:100%;background-color:rgba(0,0,0,0);border:0;color:inherit;display:block;font-size:1em;font-family:inherit;letter-spacing:normal;margin:0;opacity:1;outline:none;padding:1em 2em;position:static;text-align:center}div._2e0r68 div._1b2ogky header img{display:inline;margin:0 0 16px 0;padding:0;max-width:240px;max-height:60px}div._2e0r68 div._1b2ogky header h2{display:block;line-height:1.3;padding:0;font-family:inherit;font-weight:normal;font-style:normal;text-decoration:initial;text-align:center;font-size:1.75em;margin:0;color:inherit}div._2e0r68 div._1b2ogky header h2:not(img+*){margin-top:30px}div._2e0r68 div._1b2ogky header span._1nqoz2x{position:absolute;top:0;right:15px;font-size:2em;font-weight:normal;cursor:pointer;color:inherit}div._2e0r68 div._1b2ogky header span._1nqoz2x:hover{filter:brightness(115%)}div._2e0r68 div._1b2ogky section{width:100%;margin:0;padding:1em 2em;text-align:center;font-family:inherit;color:inherit;background:rgba(0,0,0,0)}div._2e0r68 div._1b2ogky section p{display:block;margin:0 0 1em 0;line-height:1.5;text-align:center;font-size:1em;font-family:inherit;color:inherit;overflow-wrap:break-word;font-weight:normal;font-style:normal;text-decoration:initial}div._2e0r68 div._1b2ogky section p:last-of-type{margin:0 0 1.5em 0}div._2e0r68 div._1b2ogky section._1xdvsbr{display:block}div._2e0r68 div._1b2ogky section._1xdvsbr._1pj3vdw{display:none}div._2e0r68 div._1b2ogky section._1xdvsbr a._13tfy34._1lvrymu{color:var(--_1lvrymu)}div._2e0r68 div._1b2ogky section._1xdvsbr a._13tfy34.wk16bl{text-decoration:var(--wk16bl)}div._2e0r68 div._1b2ogky section._1xdvsbr a._13tfy34._19y5qcd:visited{color:var(--_19y5qcd)}div._2e0r68 div._1b2ogky section._1xdvsbr div.rdgum{display:block;margin:.75em;padding:0;width:100%}div._2e0r68 div._1b2ogky section._1xdvsbr div.rdgum p._9mphuf{max-width:80%;margin:0 auto;padding:0;font-size:.85em;color:inherit;font-style:normal;font-weight:normal;cursor:pointer}div._2e0r68 div._1b2ogky section._1k58580{display:block}div._2e0r68 div._1b2ogky section._1k58580._1pj3vdw{display:none}div._2e0r68 div._1b2ogky section._1k58580 h4.uf9kgo{color:inherit;text-align:initial;font-weight:normal;font-family:inherit;font-size:1.125em;margin:0 0 .5em .5em}div._2e0r68 div._1b2ogky section._1k58580 div._19n4yzh{display:flex;margin:1.5em 0}div._2e0r68 div._1b2ogky section._1k58580 div._19n4yzh ul._58fy7d{max-height:300px;flex:2;list-style:none;overflow-y:auto;margin:0 1em 0 0;padding-inline-start:0}@media screen and (min-width: 608px){div._2e0r68 div._1b2ogky section._1k58580 div._19n4yzh ul._58fy7d{flex:1;margin:0 2em 0 0}}div._2e0r68 div._1b2ogky section._1k58580 div._19n4yzh ul._58fy7d li{padding:.75em;cursor:pointer;background:rgba(0,0,0,.05);font-weight:bold}div._2e0r68 div._1b2ogky section._1k58580 div._19n4yzh ul._58fy7d li:hover{background:rgba(0,0,0,.075)}div._2e0r68 div._1b2ogky section._1k58580 div._19n4yzh ul._58fy7d li._6e9e46{color:var(--yoe4ap);background:var(--_1ewp903)}div._2e0r68 div._1b2ogky section._1k58580 div._19n4yzh div.p2mxrr{max-height:300px;overflow-y:auto;flex:3;display:flex;flex-direction:column;justify-content:space-between;text-align:initial}div._2e0r68 div._1b2ogky section._1k58580 div._19n4yzh div.p2mxrr ol.q2hp99{display:none;list-style-type:decimal;text-align:initial;padding:0;margin:0 2em;font-weight:normal}div._2e0r68 div._1b2ogky section._1k58580 div._19n4yzh div.p2mxrr ol.q2hp99._6e9e46{display:block}div._2e0r68 div._1b2ogky section._1k58580 div._19n4yzh div.p2mxrr p{margin:1em 0 0;text-align:inherit;font-style:italic}div._2e0r68 div._1b2ogky section._1k58580 button._1o7gsl9{font-size:1em;text-transform:initial}div._2e0r68 div._1b2ogky button.bhanyf{width:auto;height:auto;max-width:90%;cursor:pointer;display:inline-block;letter-spacing:normal;margin:.75em;opacity:1;outline:none;overflow-wrap:break-word;font-family:inherit;font-weight:normal;font-style:normal;text-decoration:initial;text-transform:uppercase;text-align:center;color:#fff;font-size:1.15em;padding:.75em 2em;padding-inline:2em;padding-block:.75em;line-height:normal;background:#40c28a;border:none;border-radius:.25em;box-shadow:none}div._2e0r68 div._1b2ogky button.bhanyf:hover{filter:brightness(115%);box-shadow:none}div._2e0r68 div._1b2ogky a._12lup48{height:50px;width:50px;position:absolute;bottom:5px;right:5px}div._2e0r68 div._1b2ogky a._12lup48 img{position:initial;height:100%;width:100%;filter:drop-shadow(1px 1px 1px var(--_1eijn4x))}',""]);const c=a},645:t=>{t.exports=function(t){var e=[];return e.toString=function(){return this.map((function(e){var n="",r=void 0!==e[5];return e[4]&&(n+="@supports (".concat(e[4],") {")),e[2]&&(n+="@media ".concat(e[2]," {")),r&&(n+="@layer".concat(e[5].length>0?" ".concat(e[5]):""," {")),n+=t(e),r&&(n+="}"),e[2]&&(n+="}"),e[4]&&(n+="}"),n})).join("")},e.i=function(t,n,r,o,i){"string"==typeof t&&(t=[[null,t,void 0]]);var a={};if(r)for(var c=0;c<this.length;c++){var s=this[c][0];null!=s&&(a[s]=!0)}for(var l=0;l<t.length;l++){var u=[].concat(t[l]);r&&a[u[0]]||(void 0!==i&&(void 0===u[5]||(u[1]="@layer".concat(u[5].length>0?" ".concat(u[5]):""," {").concat(u[1],"}")),u[5]=i),n&&(u[2]?(u[1]="@media ".concat(u[2]," {").concat(u[1],"}"),u[2]=n):u[2]=n),o&&(u[4]?(u[1]="@supports (".concat(u[4],") {").concat(u[1],"}"),u[4]=o):u[4]="".concat(o)),e.push(u))}},e}},81:t=>{t.exports=function(t){return t[1]}},379:t=>{var e=[];function n(t){for(var n=-1,r=0;r<e.length;r++)if(e[r].identifier===t){n=r;break}return n}function r(t,r){for(var i={},a=[],c=0;c<t.length;c++){var s=t[c],l=r.base?s[0]+r.base:s[0],u=i[l]||0,d="".concat(l," ").concat(u);i[l]=u+1;var f=n(d),h={css:s[1],media:s[2],sourceMap:s[3],supports:s[4],layer:s[5]};if(-1!==f)e[f].references++,e[f].updater(h);else{var p=o(h,r);r.byIndex=c,e.splice(c,0,{identifier:d,updater:p,references:1})}a.push(d)}return a}function o(t,e){var n=e.domAPI(e);n.update(t);return function(e){if(e){if(e.css===t.css&&e.media===t.media&&e.sourceMap===t.sourceMap&&e.supports===t.supports&&e.layer===t.layer)return;n.update(t=e)}else n.remove()}}t.exports=function(t,o){var i=r(t=t||[],o=o||{});return function(t){t=t||[];for(var a=0;a<i.length;a++){var c=n(i[a]);e[c].references--}for(var s=r(t,o),l=0;l<i.length;l++){var u=n(i[l]);0===e[u].references&&(e[u].updater(),e.splice(u,1))}i=s}}},569:t=>{var e={};t.exports=function(t,n){var r=function(t){if(void 0===e[t]){var n=document.querySelector(t);if(window.HTMLIFrameElement&&n instanceof window.HTMLIFrameElement)try{n=n.contentDocument.head}catch(t){n=null}e[t]=n}return e[t]}(t);if(!r)throw new Error("Couldn't find a style target. This probably means that the value for the 'insert' parameter is invalid.");r.appendChild(n)}},216:t=>{t.exports=function(t){var e=document.createElement("style");return t.setAttributes(e,t.attributes),t.insert(e,t.options),e}},565:(t,e,n)=>{t.exports=function(t){var e=n.nc;e&&t.setAttribute("nonce",e)}},795:t=>{t.exports=function(t){if("undefined"==typeof document)return{update:function(){},remove:function(){}};var e=t.insertStyleElement(t);return{update:function(n){!function(t,e,n){var r="";n.supports&&(r+="@supports (".concat(n.supports,") {")),n.media&&(r+="@media ".concat(n.media," {"));var o=void 0!==n.layer;o&&(r+="@layer".concat(n.layer.length>0?" ".concat(n.layer):""," {")),r+=n.css,o&&(r+="}"),n.media&&(r+="}"),n.supports&&(r+="}");var i=n.sourceMap;i&&"undefined"!=typeof btoa&&(r+="\n/*# sourceMappingURL=data:application/json;base64,".concat(btoa(unescape(encodeURIComponent(JSON.stringify(i))))," */")),e.styleTagTransform(r,t,e.options)}(e,t,n)},remove:function(){!function(t){if(null===t.parentNode)return!1;t.parentNode.removeChild(t)}(e)}}}},589:t=>{t.exports=function(t,e){if(e.styleSheet)e.styleSheet.cssText=t;else{for(;e.firstChild;)e.removeChild(e.firstChild);e.appendChild(document.createTextNode(t))}}}},e={};function n(r){var o=e[r];if(void 0!==o)return o.exports;var i=e[r]={id:r,exports:{}};return t[r](i,i.exports,n),i.exports}n.n=t=>{var e=t&&t.__esModule?()=>t.default:()=>t;return n.d(e,{a:e}),e},n.d=(t,e)=>{for(var r in e)n.o(e,r)&&!n.o(t,r)&&Object.defineProperty(t,r,{enumerable:!0,get:e[r]})},n.o=(t,e)=>Object.prototype.hasOwnProperty.call(t,e),n.nc=void 0,(()=>{const t={randomUUID:"undefined"!=typeof crypto&&crypto.randomUUID&&crypto.randomUUID.bind(crypto)};let e;const r=new Uint8Array(16);function o(){if(!e&&(e="undefined"!=typeof crypto&&crypto.getRandomValues&&crypto.getRandomValues.bind(crypto),!e))throw new Error("crypto.getRandomValues() not supported. See https://github.com/uuidjs/uuid#getrandomvalues-not-supported");return e(r)}const i=[];for(let t=0;t<256;++t)i.push((t+256).toString(16).slice(1));function a(t,e=0){return(i[t[e+0]]+i[t[e+1]]+i[t[e+2]]+i[t[e+3]]+"-"+i[t[e+4]]+i[t[e+5]]+"-"+i[t[e+6]]+i[t[e+7]]+"-"+i[t[e+8]]+i[t[e+9]]+"-"+i[t[e+10]]+i[t[e+11]]+i[t[e+12]]+i[t[e+13]]+i[t[e+14]]+i[t[e+15]]).toLowerCase()}const c=function(e,n,r){if(t.randomUUID&&!n&&!e)return t.randomUUID();const i=(e=e||{}).random||(e.rng||o)();if(i[6]=15&i[6]|64,i[8]=63&i[8]|128,n){r=r||0;for(let t=0;t<16;++t)n[r+t]=i[t];return n}return a(i)};var s=n(379),l=n.n(s),u=n(795),d=n.n(u),f=n(569),h=n.n(f),p=n(565),v=n.n(p),y=n(216),m=n.n(y),g=n(589),b=n.n(g),w=n(455),x={};x.styleTagTransform=b(),x.setAttributes=v(),x.insert=h().bind(null,"head"),x.domAPI=d(),x.insertStyleElement=m();l()(w.Z,x);w.Z&&w.Z.locals&&w.Z.locals;function k(t){return k="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(t){return typeof t}:function(t){return t&&"function"==typeof Symbol&&t.constructor===Symbol&&t!==Symbol.prototype?"symbol":typeof t},k(t)}function L(){L=function(){return e};var t,e={},n=Object.prototype,r=n.hasOwnProperty,o=Object.defineProperty||function(t,e,n){t[e]=n.value},i="function"==typeof Symbol?Symbol:{},a=i.iterator||"@@iterator",c=i.asyncIterator||"@@asyncIterator",s=i.toStringTag||"@@toStringTag";function l(t,e,n){return Object.defineProperty(t,e,{value:n,enumerable:!0,configurable:!0,writable:!0}),t[e]}try{l({},"")}catch(t){l=function(t,e,n){return t[e]=n}}function u(t,e,n,r){var i=e&&e.prototype instanceof m?e:m,a=Object.create(i.prototype),c=new T(r||[]);return o(a,"_invoke",{value:A(t,n,c)}),a}function d(t,e,n){try{return{type:"normal",arg:t.call(e,n)}}catch(t){return{type:"throw",arg:t}}}e.wrap=u;var f="suspendedStart",h="suspendedYield",p="executing",v="completed",y={};function m(){}function g(){}function b(){}var w={};l(w,a,(function(){return this}));var x=Object.getPrototypeOf,E=x&&x(x(O([])));E&&E!==n&&r.call(E,a)&&(w=E);var C=b.prototype=m.prototype=Object.create(w);function _(t){["next","throw","return"].forEach((function(e){l(t,e,(function(t){return this._invoke(e,t)}))}))}function S(t,e){function n(o,i,a,c){var s=d(t[o],t,i);if("throw"!==s.type){var l=s.arg,u=l.value;return u&&"object"==k(u)&&r.call(u,"__await")?e.resolve(u.__await).then((function(t){n("next",t,a,c)}),(function(t){n("throw",t,a,c)})):e.resolve(u).then((function(t){l.value=t,a(l)}),(function(t){return n("throw",t,a,c)}))}c(s.arg)}var i;o(this,"_invoke",{value:function(t,r){function o(){return new e((function(e,o){n(t,r,e,o)}))}return i=i?i.then(o,o):o()}})}function A(e,n,r){var o=f;return function(i,a){if(o===p)throw new Error("Generator is already running");if(o===v){if("throw"===i)throw a;return{value:t,done:!0}}for(r.method=i,r.arg=a;;){var c=r.delegate;if(c){var s=I(c,r);if(s){if(s===y)continue;return s}}if("next"===r.method)r.sent=r._sent=r.arg;else if("throw"===r.method){if(o===f)throw o=v,r.arg;r.dispatchException(r.arg)}else"return"===r.method&&r.abrupt("return",r.arg);o=p;var l=d(e,n,r);if("normal"===l.type){if(o=r.done?v:h,l.arg===y)continue;return{value:l.arg,done:r.done}}"throw"===l.type&&(o=v,r.method="throw",r.arg=l.arg)}}}function I(e,n){var r=n.method,o=e.iterator[r];if(o===t)return n.delegate=null,"throw"===r&&e.iterator.return&&(n.method="return",n.arg=t,I(e,n),"throw"===n.method)||"return"!==r&&(n.method="throw",n.arg=new TypeError("The iterator does not provide a '"+r+"' method")),y;var i=d(o,e.iterator,n.arg);if("throw"===i.type)return n.method="throw",n.arg=i.arg,n.delegate=null,y;var a=i.arg;return a?a.done?(n[e.resultName]=a.value,n.next=e.nextLoc,"return"!==n.method&&(n.method="next",n.arg=t),n.delegate=null,y):a:(n.method="throw",n.arg=new TypeError("iterator result is not an object"),n.delegate=null,y)}function P(t){var e={tryLoc:t[0]};1 in t&&(e.catchLoc=t[1]),2 in t&&(e.finallyLoc=t[2],e.afterLoc=t[3]),this.tryEntries.push(e)}function Y(t){var e=t.completion||{};e.type="normal",delete e.arg,t.completion=e}function T(t){this.tryEntries=[{tryLoc:"root"}],t.forEach(P,this),this.reset(!0)}function O(e){if(e||""===e){var n=e[a];if(n)return n.call(e);if("function"==typeof e.next)return e;if(!isNaN(e.length)){var o=-1,i=function n(){for(;++o<e.length;)if(r.call(e,o))return n.value=e[o],n.done=!1,n;return n.value=t,n.done=!0,n};return i.next=i}}throw new TypeError(k(e)+" is not iterable")}return g.prototype=b,o(C,"constructor",{value:b,configurable:!0}),o(b,"constructor",{value:g,configurable:!0}),g.displayName=l(b,s,"GeneratorFunction"),e.isGeneratorFunction=function(t){var e="function"==typeof t&&t.constructor;return!!e&&(e===g||"GeneratorFunction"===(e.displayName||e.name))},e.mark=function(t){return Object.setPrototypeOf?Object.setPrototypeOf(t,b):(t.__proto__=b,l(t,s,"GeneratorFunction")),t.prototype=Object.create(C),t},e.awrap=function(t){return{__await:t}},_(S.prototype),l(S.prototype,c,(function(){return this})),e.AsyncIterator=S,e.async=function(t,n,r,o,i){void 0===i&&(i=Promise);var a=new S(u(t,n,r,o),i);return e.isGeneratorFunction(n)?a:a.next().then((function(t){return t.done?t.value:a.next()}))},_(C),l(C,s,"Generator"),l(C,a,(function(){return this})),l(C,"toString",(function(){return"[object Generator]"})),e.keys=function(t){var e=Object(t),n=[];for(var r in e)n.push(r);return n.reverse(),function t(){for(;n.length;){var r=n.pop();if(r in e)return t.value=r,t.done=!1,t}return t.done=!0,t}},e.values=O,T.prototype={constructor:T,reset:function(e){if(this.prev=0,this.next=0,this.sent=this._sent=t,this.done=!1,this.delegate=null,this.method="next",this.arg=t,this.tryEntries.forEach(Y),!e)for(var n in this)"t"===n.charAt(0)&&r.call(this,n)&&!isNaN(+n.slice(1))&&(this[n]=t)},stop:function(){this.done=!0;var t=this.tryEntries[0].completion;if("throw"===t.type)throw t.arg;return this.rval},dispatchException:function(e){if(this.done)throw e;var n=this;function o(r,o){return c.type="throw",c.arg=e,n.next=r,o&&(n.method="next",n.arg=t),!!o}for(var i=this.tryEntries.length-1;i>=0;--i){var a=this.tryEntries[i],c=a.completion;if("root"===a.tryLoc)return o("end");if(a.tryLoc<=this.prev){var s=r.call(a,"catchLoc"),l=r.call(a,"finallyLoc");if(s&&l){if(this.prev<a.catchLoc)return o(a.catchLoc,!0);if(this.prev<a.finallyLoc)return o(a.finallyLoc)}else if(s){if(this.prev<a.catchLoc)return o(a.catchLoc,!0)}else{if(!l)throw new Error("try statement without catch or finally");if(this.prev<a.finallyLoc)return o(a.finallyLoc)}}}},abrupt:function(t,e){for(var n=this.tryEntries.length-1;n>=0;--n){var o=this.tryEntries[n];if(o.tryLoc<=this.prev&&r.call(o,"finallyLoc")&&this.prev<o.finallyLoc){var i=o;break}}i&&("break"===t||"continue"===t)&&i.tryLoc<=e&&e<=i.finallyLoc&&(i=null);var a=i?i.completion:{};return a.type=t,a.arg=e,i?(this.method="next",this.next=i.finallyLoc,y):this.complete(a)},complete:function(t,e){if("throw"===t.type)throw t.arg;return"break"===t.type||"continue"===t.type?this.next=t.arg:"return"===t.type?(this.rval=this.arg=t.arg,this.method="return",this.next="end"):"normal"===t.type&&e&&(this.next=e),y},finish:function(t){for(var e=this.tryEntries.length-1;e>=0;--e){var n=this.tryEntries[e];if(n.finallyLoc===t)return this.complete(n.completion,n.afterLoc),Y(n),y}},catch:function(t){for(var e=this.tryEntries.length-1;e>=0;--e){var n=this.tryEntries[e];if(n.tryLoc===t){var r=n.completion;if("throw"===r.type){var o=r.arg;Y(n)}return o}}throw new Error("illegal catch attempt")},delegateYield:function(e,n,r){return this.delegate={iterator:O(e),resultName:n,nextLoc:r},"next"===this.method&&(this.arg=t),y}},e}function E(t,e,n,r,o,i,a){try{var c=t[i](a),s=c.value}catch(t){return void n(t)}c.done?e(s):Promise.resolve(s).then(r,o)}var C="ZnMtYWRiLWVycg",_=function(){var t,e=(t=L().mark((function t(){var e,n,r,o,i;return L().wrap((function(t){for(;;)switch(t.prev=t.next){case 0:if(document.body){t.next=3;break}return t.next=3,new Promise((function(t){return document.addEventListener("DOMContentLoaded",t)}));case 3:for(e=["YWQ=","YmFubmVyLWFk","YmFubmVyX2Fk","YmFubmVyLWFkLWNvbnRhaW5lcg==","YWQtc2lkZXJhaWw=","c3RpY2t5YWRz","aW1wcnRudC1jbnQ="],(n=document.createElement("div")).setAttribute(atob("ZGF0YS1mcmVlc3Rhci1hZA=="),"123"),r=0;r<e.length;r++)n.classList.add(atob(e[r]));if(n.style.display="block",document.body.appendChild(n),o=window.getComputedStyle(n),i=null==o?void 0:o.display,n.remove(),"none"!==i){t.next=14;break}throw new Error(C);case 14:case"end":return t.stop()}}),t)})),function(){var e=this,n=arguments;return new Promise((function(r,o){var i=t.apply(e,n);function a(t){E(i,r,o,a,c,"next",t)}function c(t){E(i,r,o,a,c,"throw",t)}a(void 0)}))});return function(){return e.apply(this,arguments)}}(),S=function(t){return new Promise((function(e,n){var r=document.createElement("script");try{r.src=t,r.addEventListener("load",(function(){e()})),r.addEventListener("error",(function(){n(C)})),document.head.appendChild(r)}catch(t){n(t)}finally{r.remove()}}))};function A(t){return A="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(t){return typeof t}:function(t){return t&&"function"==typeof Symbol&&t.constructor===Symbol&&t!==Symbol.prototype?"symbol":typeof t},A(t)}function I(){I=function(){return e};var t,e={},n=Object.prototype,r=n.hasOwnProperty,o=Object.defineProperty||function(t,e,n){t[e]=n.value},i="function"==typeof Symbol?Symbol:{},a=i.iterator||"@@iterator",c=i.asyncIterator||"@@asyncIterator",s=i.toStringTag||"@@toStringTag";function l(t,e,n){return Object.defineProperty(t,e,{value:n,enumerable:!0,configurable:!0,writable:!0}),t[e]}try{l({},"")}catch(t){l=function(t,e,n){return t[e]=n}}function u(t,e,n,r){var i=e&&e.prototype instanceof m?e:m,a=Object.create(i.prototype),c=new T(r||[]);return o(a,"_invoke",{value:_(t,n,c)}),a}function d(t,e,n){try{return{type:"normal",arg:t.call(e,n)}}catch(t){return{type:"throw",arg:t}}}e.wrap=u;var f="suspendedStart",h="suspendedYield",p="executing",v="completed",y={};function m(){}function g(){}function b(){}var w={};l(w,a,(function(){return this}));var x=Object.getPrototypeOf,k=x&&x(x(O([])));k&&k!==n&&r.call(k,a)&&(w=k);var L=b.prototype=m.prototype=Object.create(w);function E(t){["next","throw","return"].forEach((function(e){l(t,e,(function(t){return this._invoke(e,t)}))}))}function C(t,e){function n(o,i,a,c){var s=d(t[o],t,i);if("throw"!==s.type){var l=s.arg,u=l.value;return u&&"object"==A(u)&&r.call(u,"__await")?e.resolve(u.__await).then((function(t){n("next",t,a,c)}),(function(t){n("throw",t,a,c)})):e.resolve(u).then((function(t){l.value=t,a(l)}),(function(t){return n("throw",t,a,c)}))}c(s.arg)}var i;o(this,"_invoke",{value:function(t,r){function o(){return new e((function(e,o){n(t,r,e,o)}))}return i=i?i.then(o,o):o()}})}function _(e,n,r){var o=f;return function(i,a){if(o===p)throw new Error("Generator is already running");if(o===v){if("throw"===i)throw a;return{value:t,done:!0}}for(r.method=i,r.arg=a;;){var c=r.delegate;if(c){var s=S(c,r);if(s){if(s===y)continue;return s}}if("next"===r.method)r.sent=r._sent=r.arg;else if("throw"===r.method){if(o===f)throw o=v,r.arg;r.dispatchException(r.arg)}else"return"===r.method&&r.abrupt("return",r.arg);o=p;var l=d(e,n,r);if("normal"===l.type){if(o=r.done?v:h,l.arg===y)continue;return{value:l.arg,done:r.done}}"throw"===l.type&&(o=v,r.method="throw",r.arg=l.arg)}}}function S(e,n){var r=n.method,o=e.iterator[r];if(o===t)return n.delegate=null,"throw"===r&&e.iterator.return&&(n.method="return",n.arg=t,S(e,n),"throw"===n.method)||"return"!==r&&(n.method="throw",n.arg=new TypeError("The iterator does not provide a '"+r+"' method")),y;var i=d(o,e.iterator,n.arg);if("throw"===i.type)return n.method="throw",n.arg=i.arg,n.delegate=null,y;var a=i.arg;return a?a.done?(n[e.resultName]=a.value,n.next=e.nextLoc,"return"!==n.method&&(n.method="next",n.arg=t),n.delegate=null,y):a:(n.method="throw",n.arg=new TypeError("iterator result is not an object"),n.delegate=null,y)}function P(t){var e={tryLoc:t[0]};1 in t&&(e.catchLoc=t[1]),2 in t&&(e.finallyLoc=t[2],e.afterLoc=t[3]),this.tryEntries.push(e)}function Y(t){var e=t.completion||{};e.type="normal",delete e.arg,t.completion=e}function T(t){this.tryEntries=[{tryLoc:"root"}],t.forEach(P,this),this.reset(!0)}function O(e){if(e||""===e){var n=e[a];if(n)return n.call(e);if("function"==typeof e.next)return e;if(!isNaN(e.length)){var o=-1,i=function n(){for(;++o<e.length;)if(r.call(e,o))return n.value=e[o],n.done=!1,n;return n.value=t,n.done=!0,n};return i.next=i}}throw new TypeError(A(e)+" is not iterable")}return g.prototype=b,o(L,"constructor",{value:b,configurable:!0}),o(b,"constructor",{value:g,configurable:!0}),g.displayName=l(b,s,"GeneratorFunction"),e.isGeneratorFunction=function(t){var e="function"==typeof t&&t.constructor;return!!e&&(e===g||"GeneratorFunction"===(e.displayName||e.name))},e.mark=function(t){return Object.setPrototypeOf?Object.setPrototypeOf(t,b):(t.__proto__=b,l(t,s,"GeneratorFunction")),t.prototype=Object.create(L),t},e.awrap=function(t){return{__await:t}},E(C.prototype),l(C.prototype,c,(function(){return this})),e.AsyncIterator=C,e.async=function(t,n,r,o,i){void 0===i&&(i=Promise);var a=new C(u(t,n,r,o),i);return e.isGeneratorFunction(n)?a:a.next().then((function(t){return t.done?t.value:a.next()}))},E(L),l(L,s,"Generator"),l(L,a,(function(){return this})),l(L,"toString",(function(){return"[object Generator]"})),e.keys=function(t){var e=Object(t),n=[];for(var r in e)n.push(r);return n.reverse(),function t(){for(;n.length;){var r=n.pop();if(r in e)return t.value=r,t.done=!1,t}return t.done=!0,t}},e.values=O,T.prototype={constructor:T,reset:function(e){if(this.prev=0,this.next=0,this.sent=this._sent=t,this.done=!1,this.delegate=null,this.method="next",this.arg=t,this.tryEntries.forEach(Y),!e)for(var n in this)"t"===n.charAt(0)&&r.call(this,n)&&!isNaN(+n.slice(1))&&(this[n]=t)},stop:function(){this.done=!0;var t=this.tryEntries[0].completion;if("throw"===t.type)throw t.arg;return this.rval},dispatchException:function(e){if(this.done)throw e;var n=this;function o(r,o){return c.type="throw",c.arg=e,n.next=r,o&&(n.method="next",n.arg=t),!!o}for(var i=this.tryEntries.length-1;i>=0;--i){var a=this.tryEntries[i],c=a.completion;if("root"===a.tryLoc)return o("end");if(a.tryLoc<=this.prev){var s=r.call(a,"catchLoc"),l=r.call(a,"finallyLoc");if(s&&l){if(this.prev<a.catchLoc)return o(a.catchLoc,!0);if(this.prev<a.finallyLoc)return o(a.finallyLoc)}else if(s){if(this.prev<a.catchLoc)return o(a.catchLoc,!0)}else{if(!l)throw new Error("try statement without catch or finally");if(this.prev<a.finallyLoc)return o(a.finallyLoc)}}}},abrupt:function(t,e){for(var n=this.tryEntries.length-1;n>=0;--n){var o=this.tryEntries[n];if(o.tryLoc<=this.prev&&r.call(o,"finallyLoc")&&this.prev<o.finallyLoc){var i=o;break}}i&&("break"===t||"continue"===t)&&i.tryLoc<=e&&e<=i.finallyLoc&&(i=null);var a=i?i.completion:{};return a.type=t,a.arg=e,i?(this.method="next",this.next=i.finallyLoc,y):this.complete(a)},complete:function(t,e){if("throw"===t.type)throw t.arg;return"break"===t.type||"continue"===t.type?this.next=t.arg:"return"===t.type?(this.rval=this.arg=t.arg,this.method="return",this.next="end"):"normal"===t.type&&e&&(this.next=e),y},finish:function(t){for(var e=this.tryEntries.length-1;e>=0;--e){var n=this.tryEntries[e];if(n.finallyLoc===t)return this.complete(n.completion,n.afterLoc),Y(n),y}},catch:function(t){for(var e=this.tryEntries.length-1;e>=0;--e){var n=this.tryEntries[e];if(n.tryLoc===t){var r=n.completion;if("throw"===r.type){var o=r.arg;Y(n)}return o}}throw new Error("illegal catch attempt")},delegateYield:function(e,n,r){return this.delegate={iterator:O(e),resultName:n,nextLoc:r},"next"===this.method&&(this.arg=t),y}},e}function P(t,e,n,r,o,i,a){try{var c=t[i](a),s=c.value}catch(t){return void n(t)}c.done?e(s):Promise.resolve(s).then(r,o)}function Y(t){return function(){var e=this,n=arguments;return new Promise((function(r,o){var i=t.apply(e,n);function a(t){P(i,r,o,a,c,"next",t)}function c(t){P(i,r,o,a,c,"throw",t)}a(void 0)}))}}function T(t,e){for(var n=0;n<e.length;n++){var r=e[n];r.enumerable=r.enumerable||!1,r.configurable=!0,"value"in r&&(r.writable=!0),Object.defineProperty(t,(o=r.key,i=void 0,i=function(t,e){if("object"!==A(t)||null===t)return t;var n=t[Symbol.toPrimitive];if(void 0!==n){var r=n.call(t,e||"default");if("object"!==A(r))return r;throw new TypeError("@@toPrimitive must return a primitive value.")}return("string"===e?String:Number)(t)}(o,"string"),"symbol"===A(i)?i:String(i)),r)}var o,i}var O=function(){function t(e){!function(t,e){if(!(t instanceof e))throw new TypeError("Cannot call a class as a function")}(this,t),this.config=null,this.langCode=null,this.languages=this.getUserPreferredLanguages(e)}var e,n,r,o,i,a;return e=t,n=[{key:"init",value:(a=Y(I().mark((function t(){return I().wrap((function(t){for(;;)switch(t.prev=t.next){case 0:return t.next=2,this.fetchConfig();case 2:this.config=t.sent,null!==this.config&&(this.langCode=this.getFirstSupportedLanguage(this.languages),this.observe());case 4:case"end":return t.stop()}}),t,this)}))),function(){return a.apply(this,arguments)})},{key:"fetchConfig",value:(i=Y(I().mark((function t(){var e,n,r,o,i,a;return I().wrap((function(t){for(;;)switch(t.prev=t.next){case 0:return n=(e=["Y29uZmlnLmNvbnRlbnQtc2V0dGluZ3MuY29t","Y29uZmlnLnNpdGUtY29uZmlnLmNvbQ==","29uZmlnLmZyZmlndXJlcy5jb20="]).length-1,r=Number.isNaN(Number(localStorage.getItem("fs.cdi")))?0:Number(localStorage.getItem("fs.cdi")),o=Number.isNaN(Number(localStorage.getItem("fs.cfc")))?0:Number(localStorage.getItem("fs.cfc")),i=atob(e[r]),a="https://".concat(i,"/myabandonware-com.json"),t.prev=6,t.next=9,fetch(a);case 9:return t.abrupt("return",t.sent.json());case 12:return t.prev=12,t.t0=t.catch(6),++o>=3&&(o=0,r++),r>n&&(r=0),t.abrupt("return",null);case 18:return t.prev=18,localStorage.setItem("fs.cdi",r),localStorage.setItem("fs.cfc",o),t.finish(18);case 22:case"end":return t.stop()}}),t,null,[[6,12,18,22]])}))),function(){return i.apply(this,arguments)})},{key:"killScroll",value:function(t){if(t.isScrollDisabled){this.existingOverflow=document.body.style.overflow,document.body.style.overflow="hidden";var e=window.pageYOffset||document.documentElement.scrollTop,n=window.pageXOffset||document.documentElement.scrollLeft;document.body.style.top="-".concat(e,"px"),document.body.style.left="-".concat(n,"px"),window.onscroll=function(){window.scrollTo(n,e)}}}},{key:"reviveScroll",value:function(){document.body.style.overflow=this.existingOverflow||"",window.onscroll=function(){}}},{key:"getUserPreferredLanguages",value:function(t){var e=t.languages,n=t.language,r=void 0===e?[n]:e;if(r)return r.map((function(t){var e=t.trim().toLowerCase();if(!e.includes("zh"))return e.split(/-|_/)[0];var n=e.split(/-|_/)[1];return"zh"===e||["hans","cn","sg"].includes(n)?"zh":["hant","hk","mo","tw"].includes(n)?"zh-hant":void 0}))}},{key:"getFirstSupportedLanguage",value:function(t){var e=this,n=["title","paragraphOne","buttonText"],r=t.find((function(t){return n.every((function(n){return!!e.config[n][t]}))}));return void 0!==r?r:"en"}},{key:"getLocalizedTextContent",value:function(t,e){var n,r=arguments.length>2&&void 0!==arguments[2]&&arguments[2],o=t[e];if(void 0===o)throw new Error("Config text not found for text key ".concat(e));return r?null!==(n=o[this.langCode])&&void 0!==n?n:o.en:o[this.langCode]}},{key:"getPixelString",value:function(t){return"number"==typeof t?"".concat(t,"px"):null}},{key:"pickContrastingColorValue",value:function(t,e,n){var r=t.substring(1,7);return.299*parseInt(r.substring(0,2),16)+.587*parseInt(r.substring(2,4),16)+.114*parseInt(r.substring(4,6),16)>=128?e:n}},{key:"generateOverlay",value:function(t){var e=this,n=t.siteId,r=t.isCloseEnabled,o=t.dismissDuration,i=t.dismissDurationPv,a=t.logoUrl,c=t.font,s=t.paragraphTwo,l=t.paragraphThree,u=t.closeText,d=t.linkText,f=t.linkUrl,h=t.textColor,p=t.headerTextColor,v=t.buttonTextColor,y=t.headerBgColor,m=t.bgColor,g=t.buttonBgColor,b=t.borderColor,w=t.borderWidth,x=t.borderRadius,k=t.closeButtonColor,L=t.closeTextColor,E=t.linkTextColor,C=t.linkTextDecoration,_=t.linkVisitedTextColor,S=t.hasFsBranding,A=t.disableInstructions,I=document.createElement("div");I.style.setProperty("--_1ewp903",g||"#40C28A"),I.style.setProperty("--yoe4ap",v||"#000000"),I.style.setProperty("--_1eijn4x",this.pickContrastingColorValue(m||"#FFFFFF","white","black")),E&&I.style.setProperty("--_1lvrymu",E),_&&I.style.setProperty("--_19y5qcd",_),C&&I.style.setProperty("--wk16bl",C),I.classList.add("_2e0r68"),I.id="wmo6wx",I.dir="auto",this.oid=I.id;var P=document.createElement("div");P.classList.add("_1b2ogky"),m&&(P.style.backgroundColor=m),c&&(P.style.fontFamily=c),h&&(P.style.color=h);var Y=this.getPixelString(x),T=this.getPixelString(w);Y&&(P.style.borderRadius=Y),(b||T)&&(P.style.borderStyle="solid"),b&&(P.style.borderColor=b),T&&(P.style.borderWidth=T);var O=document.createElement("header");if(p&&(O.style.color=p),y){O.style.backgroundColor=y;var j=Y||"1em";O.style.borderTopLeftRadius=j,O.style.borderTopRightRadius=j}if(a){var H=document.createElement("img");H.src=a,H.alt="Logo",H.onerror=function(){this.style.display="none"},O.appendChild(H)}var U=document.createElement("h2");U.textContent=this.getLocalizedTextContent(t,"title"),O.appendChild(U);var R=document.createElement("section");R.classList.add("_1xdvsbr");var F=document.createElement("p");if(F.textContent=this.getLocalizedTextContent(t,"paragraphOne"),R.appendChild(F),s&&0!==Object.keys(s).length){var B=document.createElement("p");B.textContent=this.getLocalizedTextContent(t,"paragraphTwo"),R.appendChild(B)}if(l&&0!==Object.keys(l).length){var V=document.createElement("p");V.textContent=this.getLocalizedTextContent(t,"paragraphThree"),R.appendChild(V)}var z=d&&this.getLocalizedTextContent(t,"linkText"),G=f&&this.getLocalizedTextContent(t,"linkUrl",!0);if(z&&G){var N=document.createElement("div");N.style.margin="0 0 1em";var Q=document.createElement("a");Q.classList.add("_13tfy34"),E&&Q.classList.add("_1lvrymu"),_&&Q.classList.add("_19y5qcd"),C&&Q.classList.add("wk16bl"),Q.textContent=z,Q.href=G,Q.target="_blank",N.appendChild(Q),R.appendChild(N)}var D=document.createElement("button");if(D.classList.add("bhanyf"),D.tabIndex=0,D.textContent=this.getLocalizedTextContent(t,"buttonText"),g&&(D.style.backgroundColor=g),v&&(D.style.color=v),D.onclick=function(){document.querySelector("section._1xdvsbr").classList.add("_1pj3vdw"),document.querySelector("section._1k58580").classList.remove("_1pj3vdw")},R.appendChild(D),r){var W=function(){I.remove(),o||i?(sessionStorage.removeItem("fs.adb".concat(n||"",".dis")),i?e.updateValues("p"):o&&e.updateValues("dt"),e.reviveScroll()):sessionStorage.setItem("fs.adb".concat(n||"",".dis"),"1")},J=document.createElement("span");if(J.classList.add("_1nqoz2x"),J.innerHTML="&times;",J.tabIndex=0,k&&(J.style.color=k),J.addEventListener("click",W),O.appendChild(J),u&&0!==Object.keys(u).length){var M=document.createElement("div");M.classList.add("rdgum");var q=document.createElement("p");q.classList.add("_9mphuf"),q.textContent=this.getLocalizedTextContent(t,"closeText"),L&&(q.style.color=L),q.addEventListener("click",W),M.appendChild(q),R.appendChild(M)}}var Z=document.createElement("section");Z.classList.add("_1k58580","_1pj3vdw");var X=document.createElement("h4");X.classList.add("uf9kgo"),X.textContent=this.getLocalizedTextContent(t,"instructionsTitle");var K=document.createElement("div");K.classList.add("_19n4yzh");var $=document.createElement("ul");$.classList.add("_58fy7d");var tt=document.createElement("div");tt.classList.add("p2mxrr"),A.forEach((function(t,n){var r=document.createElement("li");r.onclick=function(){return function(t){for(var e=document.querySelectorAll("._58fy7d > li"),n=document.getElementsByClassName("q2hp99"),r=0;r<n.length;r++)e[r].classList.remove("_6e9e46"),n[r].classList.remove("_6e9e46");e[t].classList.add("_6e9e46"),n[t].classList.add("_6e9e46")}(n)},r.textContent=e.getLocalizedTextContent(t,"name",!0),$.appendChild(r);var o=document.createElement("ol");o.classList.add("q2hp99"),0===n&&(r.classList.add("_6e9e46"),o.classList.add("_6e9e46")),e.getLocalizedTextContent(t,"steps").forEach((function(t){var e=document.createElement("li");e.textContent=t,o.appendChild(e)})),tt.appendChild(o)}));var et=this.getLocalizedTextContent(t,"disclaimerText"),nt=document.createElement("p");nt.textContent=et,tt.appendChild(nt),K.appendChild($),K.appendChild(tt);var rt=document.createElement("button");if(rt.classList.add("bhanyf","_1o7gsl9"),rt.textContent=this.getLocalizedTextContent(t,"backButtonText"),g&&(rt.style.backgroundColor=g),v&&(rt.style.color=v),rt.onclick=function(){document.querySelector("section._1k58580").classList.add("_1pj3vdw"),document.querySelector("section._1xdvsbr").classList.remove("_1pj3vdw")},Z.appendChild(X),Z.appendChild(K),Z.appendChild(rt),P.appendChild(O),P.appendChild(R),P.appendChild(Z),S){var ot=document.createElement("a");ot.classList.add("_12lup48"),ot.href=atob("aHR0cHM6Ly9mcmVlc3Rhci5jb20vYWQtcHJvZHVjdHMvZGVza3RvcC1tb2JpbGUvZnJlZXN0YXItcmVjb3ZlcmVk"),ot.target="_blank";var it=document.createElement("img");it.alt="Logo",it.src=this.pickContrastingColorValue(m||"#FFFFFF","data:image/png;base64,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","data:image/png;base64,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"),ot.appendChild(it),P.appendChild(ot)}return I.appendChild(P),I}},{key:"getAndSetOverlay",value:(o=Y(I().mark((function t(e){var n,r,o,i;return I().wrap((function(t){for(;;)switch(t.prev=t.next){case 0:if(this.post(!0,e),e.dismissDuration||e.dismissDurationPv||"1"!==sessionStorage.getItem("fs.adb".concat(e.siteId||"",".dis"))){t.next=3;break}return t.abrupt("return");case 3:if(n=localStorage.getItem("fs.adb"),r=n&&JSON.parse(n),!e.dismissDurationPv||!r.p||"number"!=typeof r.p){t.next=14;break}if(!(e.dismissDurationPv<=r.p+1)){t.next=10;break}this.clearValue("p"),t.next=12;break;case 10:return this.updateValues("p"),t.abrupt("return");case 12:t.next=15;break;case 14:this.clearValue("p");case 15:if(o=parseInt(r.dt,10),!e.dismissDuration||!o){t.next=25;break}if(!(Math.abs((Date.now()-o)/36e5)<e.dismissDuration)){t.next=22;break}return t.abrupt("return");case 22:this.clearValue("dt");case 23:t.next=26;break;case 25:this.clearValue("dt");case 26:if(document.body){t.next=29;break}return t.next=29,new Promise((function(t){return document.addEventListener("DOMContentLoaded",t)}));case 29:if(this.killScroll(e),null===document.querySelector("#".concat(this.oid))){t.next=32;break}return t.abrupt("return");case 32:i=this.generateOverlay(e),document.body.appendChild(i);case 34:case"end":return t.stop()}}),t,this)}))),function(t){return o.apply(this,arguments)})},{key:"getStatus",value:function(t,e){return!0===e?1:2===t||1===t?2:0}},{key:"getAndSetData",value:function(t){var e,n,r,o=localStorage.getItem("fs.adb"),i=o&&JSON.parse(o),a=Date.now();return i?(e=i.i,n=i.ot,r=this.getStatus(i.s,t)):(i={},e=c(),n=a,r=t?1:0),i.i=e,i.s=r,i.ot=n,i.lt=a,localStorage.setItem("fs.adb",JSON.stringify(i)),i}},{key:"updateValues",value:function(t){var e=localStorage.getItem("fs.adb"),n=e&&JSON.parse(e);"p"===t?(n.p=n.p?n.p+1:1,n.dt&&delete n.dt):"dt"===t&&(n.dt=Date.now(),n.p&&delete n.p),localStorage.setItem("fs.adb",JSON.stringify(n))}},{key:"clearValue",value:function(t){var e=localStorage.getItem("fs.adb"),n=e&&JSON.parse(e);n[t]&&(delete n[t],localStorage.setItem("fs.adb",JSON.stringify(n)))}},{key:"post",value:function(t,e){var n=atob("c2l0ZS1jb25maWcuY29t"),r=e.cDomain||n,o="https://".concat(r,"/v2/abr"),i=this.getAndSetData(t),a=e.accountId,c=e.siteId,s=navigator.userAgent||window.navigator.userAgent,l=document.referrer,u=window.location,d={accountId:a,siteId:c,userId:i.i,url:u.href,referalURL:l,userAgent:s,status:function(t){switch(t){case 0:return"not detected";case 1:return"detected";case 2:return"recovered";default:return}}(i.s),returning:i.ot!==i.lt,version:"1.3.0"};fetch(o,{method:"POST",headers:{"Content-Type":"application/json","X-Client-Geo-Location":"{client_region},{client_region_subdivision},{client_city}"},body:JSON.stringify(d)}).catch((function(){}))}},{key:"observe",value:function(){var t=this,e="";new MutationObserver((function(){location.pathname!==e&&(e=location.pathname,t.run())})).observe(document,{subtree:!0,childList:!0})}},{key:"run",value:function(){var t=this,e=this.config;setTimeout(Y(I().mark((function n(){return I().wrap((function(n){for(;;)switch(n.prev=n.next){case 0:return n.next=2,_().then((function(){return S(atob("aHR0cHM6Ly9hLnB1Yi5uZXR3b3JrL2NvcmUvcHJlYmlkLXVuaXZlcnNhbC1jcmVhdGl2ZS5qcw=="))})).then((function(){return S(atob("aHR0cHM6Ly93d3cuZ29vZ2xldGFnc2VydmljZXMuY29tL3RhZy9qcy9ncHQuanM="))})).then((function(){t.post(!1,e)})).catch((function(n){n!==C&&(null==n?void 0:n.message)!==C||t.getAndSetOverlay(e)}));case 2:case"end":return n.stop()}}),n)}))),200)}}],n&&T(e.prototype,n),r&&T(e,r),Object.defineProperty(e,"prototype",{writable:!1}),t}();window.fsabrActive=!0,new O(window.navigator).init()})()})();
+        </script>
+        <!--    @formatter:on-->
+
+    <meta charset="utf-8">
+
+    <link rel="preconnect" href="https://www.google-analytics.com">
+    <link rel="preconnect" href="https://cmp.inmobi.com">
+    <link rel="preconnect" href="https://d.pub.network">
+
+            <link rel="preload" as="image" href="/media/css/img/logo-skifree.png"/>
+        <link rel="preload" as="font" type="font/woff2" href="/media/css/font/MetronicProCSB.woff2" crossorigin/>
+
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="theme-color" content="#ffffff">
+
+    <meta name=viewport content="width=device-width, initial-scale=1">
+
+    <script src="/wp-content/plugins/wp-banners/js/wp-banners.js" async></script>
+
+    <meta http-equiv="content-language" content="en-US" >
+<meta property="fb:admins" content="651077485" >
+<meta property="fb:page_id" content="119462358150747" >
+<meta property="og:description" content="Remember Tank Racer (Windows), an old video game from 1999? Download it and play again on MyAbandonware." >
+<meta property="og:image" content="https://www.myabandonware.com/media/screenshots/t/tank-racer-jgg/tank-racer_14.jpg" >
+<meta property="og:locale" content="en_US" >
+<meta property="og:site_name" content="My Abandonware" >
+<meta property="og:title" content="Tank Racer (Windows)" >
+<meta property="og:type" content="product" >
+<meta property="og:url" content="https://www.myabandonware.com/game/tank-racer-c3u" >
+<meta property="product:category" content="Video Games" >
+<meta name="keywords" content="abandonware" >
+<meta name="description" content="If you haven't played Tank Racer or want to try this action video game, download it now for free! Published in 1999 by Grolier Interactive Inc., Tank Racer is still a popular shooter title amongst retrogamers, with a whopping 4.7/5 rating." >
+<meta name="robots" content="all" >
+<meta name="language" content="en-US" >
+<meta name="copyright" content="https://utopiaweb.fr/" >
+    <title>Download Tank Racer (Windows) - My Abandonware</title>
+    <script>
+        window.viewPortWidth = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
+
+        function insScript(A, e = ! 0, n = () => {
+        }) {
+            var o = document.createElement("script");
+            o.async = e, o.src = A, o.onload = n;
+            n = document.getElementsByTagName("script")[0];
+            n.parentNode.insertBefore(o, n)
+        }
+    </script>
+
+    <style>[data-e420-ad]{display:inline-flex;align-items:center;justify-content:center;width:100%}[data-e420-ad*=x90]{height:90px}[data-e420-ad*=x250]{height:250px}[data-e420-ad*=x280]{height:280px}[data-e420-ad*=x600]{height:600px}@media only screen and (min-device-width :320px) and (max-device-width :768px){[data-e420-ad*=x50]{height:50px}[data-e420-ad*=x60]{height:60px}[data-e420-ad*=x100]{height:100px}}</style>
+<script data-cfasync="false" type="text/javascript">
+  var freestar = freestar || {};
+  freestar.hitTime = Date.now();
+  freestar.queue = freestar.queue || [];
+  freestar.config = freestar.config || {};
+  freestar.debug = window.location.search.indexOf('fsdebug') === -1 ? false : true;
+  // Tag IDs set here, must match Tags served in the Body for proper setup
+  freestar.config.enabled_slots = [];
+  !function(a,b){var c=b.getElementsByTagName("script")[0],d=b.createElement("script"),e="https://a.pub.network/myabandonware-com";e+=freestar.debug?"/qa/pubfig.min.js":"/pubfig.min.js",d.async=!0,d.src=e,c.parentNode.insertBefore(d,c)}(window,document);
+  freestar.initCallback = function () { (freestar.config.enabled_slots.length === 0) ? freestar.initCallbackCalled = false : freestar.newAdSlots(freestar.config.enabled_slots) }
+</script><script>window.artstr = "e420";</script>
+    
+        <script>
+            (function (i, s, o, g, r, a, m) {
+                i['GoogleAnalyticsObject'] = r;
+                i[r] = i[r] || function () {
+                    (i[r].q = i[r].q || []).push(arguments)
+                }, i[r].l = 1 * new Date();
+                a = s.createElement(o),
+                    m = s.getElementsByTagName(o)[0];
+                a.async = 1;
+                a.src = g;
+                m.parentNode.insertBefore(a, m)
+            })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+            ga('create', 'UA-4931310-5', 'auto');
+            ga('require', 'displayfeatures');
+            ga('send', 'pageview');
+
+        </script>
+
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-E2247S2XBP"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+
+            gtag('js', new Date());
+
+            gtag('config', 'G-E2247S2XBP');
+        </script>
+
+    
+    
+    <script async src="/media/js/gamelist-controls.min.js?v=1687858394"></script>
+<script async src="/media/js/browsehover.min.js?v=1661863781"></script>
+    <script type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@type": "WebSite",
+            "name": "My Abandonware",
+            "alternateName": "MyAbandonware",
+            "url": "https://www.myabandonware.com",
+            "image": "https://www.myabandonware.com/media/img/assets/myabandonware-square-1.png"
+        }
+    </script>
+    <script type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@type": "Organization",
+            "name": "My Abandonware",
+            "url": "https://www.myabandonware.com/",
+            "sameAs": [
+                "https://www.facebook.com/myabandonware",
+                "https://twitter.com/myabandonware"
+            ]
+        }
+    </script>
+
+    <link href="/media/css/style.css?v=1713167186" rel="stylesheet" type="text/css"/>
+    <script type="application/javascript" src="/media/js/myab.min.js?v=1695631266" defer></script>
+</head>
+<body>
+<div id="c" class="o-content  ">
+
+    <div id="h" class="c">
+
+        <div class="b1">
+            <h1>Download Tank Racer (Windows)</h1>
+            <div class="c-user-feat">
+
+                                <a href="/browse/random" class="o-account c-random-game">RANDOM GAME</a>
+
+                <a href="/favorites/" class="o-account c-user-feat__favorites" title="Browse your Favorite Games" rel="nofollow">Favorites</a>
+                <a href="/howto/" class="o-account c-help">Help</a>
+                <a href="/contribute/" class="o-account c-user-feat__contribute" title="Help us by contributing">Contribute</a>
+
+                                    <a href="/register/" class="o-account c-user-feat__register" title="Create an account">Register</a>
+                    <a href="/login/" class="o-account c-user-feat__login" title="Login MAW">Login</a>
+                            </div>
+        </div>
+
+        <div class="b2">
+
+            <a class="logo skifree" href="/">MyAbandonware</a>
+            <div class="pitch" title="Real count is close to 28900">More than 28900 old games to download for
+                free!
+            </div>
+            <form id="search" method="post" action="/search/">
+                <fieldset>
+                    <input type="text" value="" name="searchValue" class="inputText" placeholder="Game search...">
+                    <input type="submit" value="search" class="dNone">
+                </fieldset>
+                <script type="application/ld+json">
+                    {
+                        "@context": "http://schema.org",
+                        "@type": "WebSite",
+                        "url": "https://www.myabandonware.com/",
+                        "potentialAction": {
+                            "@type": "SearchAction",
+                            "target": "https://www.myabandonware.com/search/q/{searchValue}",
+                            "query-input": "required name=searchValue"
+                        }
+                    }
+                </script>
+                <a href="/search" id="advsearch">Search by criteria</a>
+            </form>
+        </div>
+
+        <div class="b3">
+            <span>Browse By...</span>
+            <ul>
+                <li>
+                    <a href="/browse/name/">Name</a>
+                </li>
+                <li>
+                    <a href="/browse/year/">Year</a>
+                </li>
+                <li>
+                    <a href="/browse/platform/">Platform</a>
+                </li>
+                <li>
+                    <a href="/browse/genre/">Genre</a>
+                </li>
+                <li>
+                    <a href="/browse/theme/">Theme</a>
+                </li>
+                <li>
+                    <a class="a16" href="/browse/publisher/">Publisher</a>
+                </li>
+                <li>
+                    <a class="a16" href="/browse/developer/">Developer</a>
+                </li>
+            </ul>
+        </div>
+
+        <div style="line-height:1px"><div align="center" data-e420-ad="__320x100 __970x90" id="5ce1af0ecc"><script data-cfasync="false" type="text/javascript">freestar.config.enabled_slots.push({ placementName: "myabandonware_leaderboard_atf", slotId: "5ce1af0ecc" });</script></div></div>
+    </div>
+
+    <div id="pw" class="c">
+
+        <div id="content">
+
+            <ol vocab="https://schema.org/" typeof="BreadcrumbList" class="breadCrumb c-breadcrumb">
+                <li property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" href="/"><span property="name">My Abandonware</span></a><meta property="position" content="1"></li> &gt; <li property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" href="/browse/genre/action-1/"><span property="name">Action</span></a><meta property="position" content="2"></li> &gt; <li property="itemListElement" typeof="ListItem"><span property="name">Tank Racer</span><meta property="position" content="3"></li>            </ol>
+
+            
+<div class="box">
+
+    <h2>Tank Racer</h2>
+    <p class="h2 h2--subtitle">
+        Windows - 1999    </p>
+
+    
+</div>
+
+
+<div class="box metas">
+
+    <div>
+        <div class="e420" id="e420CT"><div align="center" data-e420-ad="__300x600" id="93c7e5eb5c"><script data-cfasync="false" type="text/javascript">freestar.config.enabled_slots.push({ placementName: "myabandonware_medrec_left_atf", slotId: "93c7e5eb5c" });</script></div></div>    </div>
+
+    <div class="gameData js-gamelist">
+        <table class="gameInfo"><tbody>
+<tr>
+<th scope="row">Year</th>
+<td><a href="/browse/year/1999/">1999</a></td>
+</tr>
+<tr>
+<th scope="row">Platform</th>
+<td><a href="/browse/platform/windows/">Windows</a></td>
+</tr>
+<tr>
+<th scope="row">Released in</th>
+<td>United States</td>
+</tr>
+<tr>
+<th scope="row">Genre</th>
+<td><a class='gel' title='Browse games of this genre' href='/browse/genre/action-1/'>Action</a>, <a class='gel' title='Browse games of this genre' href='/browse/genre/racing-driving-4/'>Racing / Driving</a></td>
+</tr>
+<tr>
+<th scope="row">Theme</th>
+<td><a class='thl' title='Browse games of this theme' href='/browse/theme/shooter-1v/'>Shooter</a>, <a class='thl' title='Browse games of this theme' href='/browse/theme/tank-24/'>Tank</a></td>
+</tr>
+<tr>
+<th scope="row">Publisher</th>
+<td><a href='/browse/publisher/grolier-interactive-inc-4mh/'>Grolier Interactive Inc.</a></td>
+</tr>
+<tr>
+<th scope="row">Developer</th>
+<td><a href='/browse/developer/glass-ghost-3zp/'>Glass Ghost</a></td>
+</tr>
+<tr>
+<th scope="row">Perspectives</th>
+<td>Top-Down, Behind view</td>
+</tr>
+</tbody></table>
+<div class="c-game_user-controls js-gamelist"><form method="post" action="/favorites/add" class="c-gamelist-controls  c-gamelist-controls--nigl">
+            <input type="hidden" name="gameIndex" class="c-gamelist-controls__input" value="/game/tank-racer-c3u"/>
+            <button type="submit" class="c-gamelist-controls__button js-gamelist-add" title="Add to favorites">Add to favorites</button>
+            </form></div>    </div>
+
+
+</div>
+
+
+<div class="box gameRateDL">
+
+    <div class="gameRate">
+        <div class="gameRater" id="grRa"><div style="width:94%;" id="grRaA"></div><button style="width:100%;" onclick="return __myAbRateGame(5);"></button><button style="width:80%;" onclick="return __myAbRateGame(4);"></button><button style="width:60%;" onclick="return __myAbRateGame(3);"></button><button style="width:40%;" onclick="return __myAbRateGame(2);"></button><button style="width:20%;" onclick="return __myAbRateGame(1);"></button></div><div id="grRaB" class="gameRated"><span>4.69</span> / <span>5</span> - <span>50</span> votes</div> <script type="text/javascript">
+            (function () {
+                var r = new XMLHttpRequest();
+                var rUrl = '/game/rate/tank-racer-c3u/';
+
+                var grRa = document.getElementById('grRa');
+                var grRaA = document.getElementById('grRaA');
+                var grRaB = document.getElementById('grRaB');
+                var __myAbRateGame = function (nb) {
+
+                    grRa.className = grRa.className + ' rated';
+                    grRaA.style.width = (nb * 20) + '%';
+                    grRaB.innerHTML = "Thanks!";
+
+                    r.open("POST", rUrl + nb + '/', true);
+                    r.setRequestHeader("X-Requested-With", "XMLHttpRequest");
+                    r.send();
+
+                    return false;
+                };
+                document.__myAbRateGame = __myAbRateGame;
+            })();
+        </script>    </div>
+
+                <div class="gameBigB gameDL">
+                <a href="#download">Download
+                    <span>18 MB</span>
+                </a>
+            </div>
+
+                        </div>
+
+
+<div class="box">
+
+    <h3>Description of Tank Racer</h3>
+
+    
+            <div class="gameDescription dscr">
+            <a href="javascript:void(0)" onclick="this.remove()"  class="readmore c-game__read-more">Read Full Description</a><h4>VROOOOOM!</h4>
+<p>Oh joy, another arcade racer! That may or may not be a sarcastic statement... I happen to be very fond of arcade racers. I bought my first 3dfx card to improve my <em><strong>MotoRacer</strong></em> game, which I played to death. I also bought <em><strong>Motorhead</strong></em> the nano-second it appeared on the shelves (and it happens to be the best arcade car racer in existence, IMHO). However, the market has become somewhat saturated lately, particularly by games with a console-ish feel to them. Your average punter may be wondering which one to exchange their hard-earned groats for... So, with that in mind, here's the low-down on <em><strong>Tank Racer</strong></em></p>
+<h4>PUTT PUTT PUTT</h4>
+<p>No prizes for guessing what the guts of this game involve. Yes that's right Timmy, it's about racing tanks. Installation is quick and simple, and within a few minutes you can get behind the wheel (or whatever it is tanks have). The controls are fairly simple, although you'd be hard pressed to make much use of the turret controls with just a keyboard. This isn't really a problem, though. You'll find yourself too occupied with driving the tank to spare <em>too</em> much digital-dexterity for fancy turret-waving displays. The tanks are well rendered (they've got a chubby &quot;toy tank&quot; look, the &quot;screaming death machine&quot; look is obviously <em>out</em>this season) with nice shiny bits, and reasonable detail. There are a lot of 2D sprites in the game however, which is surprising considering the hardware requirements. Most non-building type objects are squashable--and for a tank game, they damn well better be--but some of them are somewhat lacking in detail. On the other hand, once something's been run over by a tank, you don't need a lot of detail. This isn't <em>too</em> worrying, as the rest of the scenery is fairly well executed, but not eye-popping. The colours are bright, and almost cartoonish, which fits in well with the game's atmosphere. The wildlife leaves a lot to be desired, though. Cows, ducks and other assorted squashables are scattered over the landscape. They look sprite-based and have a somewhat 2D appearance--an appearance which is perfected when you run them over. Instead of exploding into doggie-snax or Pink Mist, they just fall down like cardboard cut-outs. Bleh. I don't know of this was a deliberate anti-gore decision, but it's so out of place, it's almost jarring.</p>
+<p>The game's physics are also a bit odd. The tanks don't have a lot of grip, and their turning radius is quite large (even the tank with the best handling suffered from this). These two factors made racing them somewhat frustrating. I'll accept low traction, so long as I can shove my chosen vehicle into a sideways drift around the track when I need to, but the large turning radius prevents this from happening. In the end you just have to allow yourself a large margin of error for course corrections, and let the scenery shunt you in the right direction. The racing doesn't <em>feel</em> particularly fast either, but very few games get that right, and you wouldn't expect it in a tank game... so what <em>do</em>you expect?</p>
+<h4>BANG!</h4>
+<p>Of course, the <em>real</em> question in any tank game is &quot;what about the firepower?&quot;. Well, this <em>is</em> a racing game, first and foremost. None of the vehicles can be destroyed (or even damaged). This was a good move, IMHO. The <em><strong>Carmageddon</strong></em> games <em>do</em> allow the total destruction of the participant's vehicle, and that shifted the gameplay almost entirely away from actually <em>racing</em>. The shells just give the target a slight knock (or a big one if you've got the right power-up), but because the tracks are relatively short and winding, even a <em>slight</em> shove can lose you a place or two. This gives the game a degree of tension which would otherwise be lacking in such a slow feeling racer. The turret's elevation (and therefore your shell's range) is determined automatically, and the bearing is also fairly generously automated. You only have to be pointing roughly at your target to hit it, with a margin of error of roughly +/- 10 degrees. his means you can actually compete fairly well against the computer's internal trig tables. Aside from a Big Bomb, other power-ups include a homing missile, mines and (of course) a turbo boost. There's also a UFO beacon, which causes the target to be picked up and dropped a depressingly large distance back down the track. It's basically game over if you get nailed by one of these. Other than that, playing <em><strong>Tank Racer</strong></em> is a relatively un-frustrating experience... something which I value very highly in a racing game. The AI isn't too demanding, and the courses are relatively easy to learn.</p>
+<p>The sounds in <em><strong>Tank Racer</strong></em> are also a mixed bag. The engine noises are reasonably good, but if I'm driving a tank, I also want a nice satisfying explosions when I pop off a shell, and when they hit something... and <em><strong>Tank Racer</strong></em> doesn't really deliver them. For me, this detracted greatly from the game's atmosphere. The game sounds <em>are</em> in straight .WAV format, though, so replacing them with something better is an option, but not really an acceptable one. The soundtrack, though, is well executed. There are close to a dozen original compositions, and despite their Euro-techno sound they're a cut above the usual boom-chaka soundtrack arcade racers usually end up with.</p>
+<h4>Splat</h4>
+<p>Like a lot of games that try to merge two genres, <em><strong>Tank Racer</strong></em> suffers from a little schizophrenia. It's not exactly a top-notch racer, and the tank aspect isn't as well implemented as it could have been. All of which is something of a shame, because for all its shortfalls in the design area, <em><strong>Tank Racer</strong></em> is actually a well-implemented game. I encountered precisely zero bugs, the engine is slick despite its dated look and the interface is easy to navigate. Once you get used to the way the game works, it's a fairly solid racer... but it's missing too much originality and punch to elevate it to the heights of greatness. Having said that, I personally like my racers fast and brutal, but if you're looking for something a bit more fun than it is furious, <em><strong>Tank Racer</strong></em> might just be your cup of tea.</p>
+<p><span class="revhotud">Review By <span class="authid">GamesDomain</span></span></p>
+        </div>
+    
+    
+    
+            <h4>External links</h4>
+
+        <ul class="extLinks">
+            <li class="mobygames"><a href="https://www.mobygames.com/game/5302/tank-racer/" rel="nofollow">MobyGames</a>        </ul>
+    
+    
+</div>
+
+
+    <div class="box">
+        <h3>Captures and Snapshots</h3>
+
+        </ul><ul id="screentabs"><li><a href="javascript:void(0)" data-platform="4" onclick="toggleScreentabs(this)" class="current">Windows</a></li><div class="items screens" data-platform="4"><a class="item itemListScreenshot thumb c-thumb lb" 
+    href="/media/screenshots/t/tank-racer-jgg/tank-racer_1.jpg" data-webp="1"><picture>
+    <source type="image/webp" srcset="/media/screenshots/t/tank-racer-jgg/webp/tank-racer_1.webp">
+    <img src="/media/screenshots/t/tank-racer-jgg/tank-racer_1.jpg"
+         alt="Tank Racer 0"
+         loading="lazy"/>
+     </picture>
+</a><a class="item itemListScreenshot thumb c-thumb lb" 
+    href="/media/screenshots/t/tank-racer-jgg/tank-racer_2.jpg" data-webp="1"><picture>
+    <source type="image/webp" srcset="/media/screenshots/t/tank-racer-jgg/webp/tank-racer_2.webp">
+    <img src="/media/screenshots/t/tank-racer-jgg/tank-racer_2.jpg"
+         alt="Tank Racer 1"
+         loading="lazy"/>
+     </picture>
+</a><a class="item itemListScreenshot thumb c-thumb lb" 
+    href="/media/screenshots/t/tank-racer-jgg/tank-racer_3.jpg" data-webp="1"><picture>
+    <source type="image/webp" srcset="/media/screenshots/t/tank-racer-jgg/webp/tank-racer_3.webp">
+    <img src="/media/screenshots/t/tank-racer-jgg/tank-racer_3.jpg"
+         alt="Tank Racer 2"
+         loading="lazy"/>
+     </picture>
+</a><a class="item itemListScreenshot thumb c-thumb lb" 
+    href="/media/screenshots/t/tank-racer-jgg/tank-racer_4.jpg" data-webp="1"><picture>
+    <source type="image/webp" srcset="/media/screenshots/t/tank-racer-jgg/webp/tank-racer_4.webp">
+    <img src="/media/screenshots/t/tank-racer-jgg/tank-racer_4.jpg"
+         alt="Tank Racer 3"
+         loading="lazy"/>
+     </picture>
+</a><a class="item itemListScreenshot thumb c-thumb lb" 
+    href="/media/screenshots/t/tank-racer-jgg/tank-racer_5.jpg" data-webp="1"><picture>
+    <source type="image/webp" srcset="/media/screenshots/t/tank-racer-jgg/webp/tank-racer_5.webp">
+    <img src="/media/screenshots/t/tank-racer-jgg/tank-racer_5.jpg"
+         alt="Tank Racer 4"
+         loading="lazy"/>
+     </picture>
+</a><a class="item itemListScreenshot thumb c-thumb lb" 
+    href="/media/screenshots/t/tank-racer-jgg/tank-racer_6.jpg" data-webp="1"><picture>
+    <source type="image/webp" srcset="/media/screenshots/t/tank-racer-jgg/webp/tank-racer_6.webp">
+    <img src="/media/screenshots/t/tank-racer-jgg/tank-racer_6.jpg"
+         alt="Tank Racer 5"
+         loading="lazy"/>
+     </picture>
+</a><a class="item itemListScreenshot thumb c-thumb lb" 
+    href="/media/screenshots/t/tank-racer-jgg/tank-racer_7.jpg" data-webp="1"><picture>
+    <source type="image/webp" srcset="/media/screenshots/t/tank-racer-jgg/webp/tank-racer_7.webp">
+    <img src="/media/screenshots/t/tank-racer-jgg/tank-racer_7.jpg"
+         alt="Tank Racer 6"
+         loading="lazy"/>
+     </picture>
+</a><a class="item itemListScreenshot thumb c-thumb lb" 
+    href="/media/screenshots/t/tank-racer-jgg/tank-racer_8.jpg" data-webp="1"><picture>
+    <source type="image/webp" srcset="/media/screenshots/t/tank-racer-jgg/webp/tank-racer_8.webp">
+    <img src="/media/screenshots/t/tank-racer-jgg/tank-racer_8.jpg"
+         alt="Tank Racer 7"
+         loading="lazy"/>
+     </picture>
+</a><a class="item itemListScreenshot thumb c-thumb lb" 
+    href="/media/screenshots/t/tank-racer-jgg/tank-racer_9.jpg" data-webp="1"><picture>
+    <source type="image/webp" srcset="/media/screenshots/t/tank-racer-jgg/webp/tank-racer_9.webp">
+    <img src="/media/screenshots/t/tank-racer-jgg/tank-racer_9.jpg"
+         alt="Tank Racer 8"
+         loading="lazy"/>
+     </picture>
+</a><a class="item itemListScreenshot thumb c-thumb lb" 
+    href="/media/screenshots/t/tank-racer-jgg/tank-racer_10.jpg" data-webp="1"><picture>
+    <source type="image/webp" srcset="/media/screenshots/t/tank-racer-jgg/webp/tank-racer_10.webp">
+    <img src="/media/screenshots/t/tank-racer-jgg/tank-racer_10.jpg"
+         alt="Tank Racer 9"
+         loading="lazy"/>
+     </picture>
+</a><a class="item itemListScreenshot thumb c-thumb lb" 
+    href="/media/screenshots/t/tank-racer-jgg/tank-racer_11.jpg" data-webp="1"><picture>
+    <source type="image/webp" srcset="/media/screenshots/t/tank-racer-jgg/webp/tank-racer_11.webp">
+    <img src="/media/screenshots/t/tank-racer-jgg/tank-racer_11.jpg"
+         alt="Tank Racer 10"
+         loading="lazy"/>
+     </picture>
+</a><a class="item itemListScreenshot thumb c-thumb lb" 
+    href="/media/screenshots/t/tank-racer-jgg/tank-racer_12.jpg" data-webp="1"><picture>
+    <source type="image/webp" srcset="/media/screenshots/t/tank-racer-jgg/webp/tank-racer_12.webp">
+    <img src="/media/screenshots/t/tank-racer-jgg/tank-racer_12.jpg"
+         alt="Tank Racer 11"
+         loading="lazy"/>
+     </picture>
+</a><a class="item itemListScreenshot thumb c-thumb lb" 
+    href="/media/screenshots/t/tank-racer-jgg/tank-racer_13.jpg" data-webp="1"><picture>
+    <source type="image/webp" srcset="/media/screenshots/t/tank-racer-jgg/webp/tank-racer_13.webp">
+    <img src="/media/screenshots/t/tank-racer-jgg/tank-racer_13.jpg"
+         alt="Tank Racer 12"
+         loading="lazy"/>
+     </picture>
+</a><a class="item itemListScreenshot thumb c-thumb lb" 
+    href="/media/screenshots/t/tank-racer-jgg/tank-racer_14.jpg" data-webp="1"><picture>
+    <source type="image/webp" srcset="/media/screenshots/t/tank-racer-jgg/webp/tank-racer_14.webp">
+    <img src="/media/screenshots/t/tank-racer-jgg/tank-racer_14.jpg"
+         alt="Tank Racer 13"
+         loading="lazy"/>
+     </picture>
+</a><a class="item itemListScreenshot thumb c-thumb lb" 
+    href="/media/screenshots/t/tank-racer-jgg/tank-racer_15.jpg" data-webp="1"><picture>
+    <source type="image/webp" srcset="/media/screenshots/t/tank-racer-jgg/webp/tank-racer_15.webp">
+    <img src="/media/screenshots/t/tank-racer-jgg/tank-racer_15.jpg"
+         alt="Tank Racer 14"
+         loading="lazy"/>
+     </picture>
+</a><a class="item itemListScreenshot thumb c-thumb lb" 
+    href="/media/screenshots/t/tank-racer-jgg/tank-racer_16.jpg" data-webp="1"><picture>
+    <source type="image/webp" srcset="/media/screenshots/t/tank-racer-jgg/webp/tank-racer_16.webp">
+    <img src="/media/screenshots/t/tank-racer-jgg/tank-racer_16.jpg"
+         alt="Tank Racer 15"
+         loading="lazy"/>
+     </picture>
+</a><a class="item itemListScreenshot thumb c-thumb lb" 
+    href="/media/screenshots/t/tank-racer-jgg/tank-racer_17.jpg" data-webp="1"><picture>
+    <source type="image/webp" srcset="/media/screenshots/t/tank-racer-jgg/webp/tank-racer_17.webp">
+    <img src="/media/screenshots/t/tank-racer-jgg/tank-racer_17.jpg"
+         alt="Tank Racer 16"
+         loading="lazy"/>
+     </picture>
+</a><a class="item itemListScreenshot thumb c-thumb lb" 
+    href="/media/screenshots/t/tank-racer-jgg/tank-racer_18.jpg" data-webp="1"><picture>
+    <source type="image/webp" srcset="/media/screenshots/t/tank-racer-jgg/webp/tank-racer_18.webp">
+    <img src="/media/screenshots/t/tank-racer-jgg/tank-racer_18.jpg"
+         alt="Tank Racer 17"
+         loading="lazy"/>
+     </picture>
+</a><a class="item itemListScreenshot thumb c-thumb lb" 
+    href="/media/screenshots/t/tank-racer-jgg/tank-racer_19.jpg" data-webp="1"><picture>
+    <source type="image/webp" srcset="/media/screenshots/t/tank-racer-jgg/webp/tank-racer_19.webp">
+    <img src="/media/screenshots/t/tank-racer-jgg/tank-racer_19.jpg"
+         alt="Tank Racer 18"
+         loading="lazy"/>
+     </picture>
+</a><a class="item itemListScreenshot thumb c-thumb lb" 
+    href="/media/screenshots/t/tank-racer-jgg/tank-racer_20.jpg" data-webp="1"><picture>
+    <source type="image/webp" srcset="/media/screenshots/t/tank-racer-jgg/webp/tank-racer_20.webp">
+    <img src="/media/screenshots/t/tank-racer-jgg/tank-racer_20.jpg"
+         alt="Tank Racer 19"
+         loading="lazy"/>
+     </picture>
+</a><a class="item itemListScreenshot thumb c-thumb lb" 
+    href="/media/screenshots/t/tank-racer-jgg/tank-racer_21.jpg" data-webp="1"><picture>
+    <source type="image/webp" srcset="/media/screenshots/t/tank-racer-jgg/webp/tank-racer_21.webp">
+    <img src="/media/screenshots/t/tank-racer-jgg/tank-racer_21.jpg"
+         alt="Tank Racer 20"
+         loading="lazy"/>
+     </picture>
+</a><a class="item itemListScreenshot thumb c-thumb lb" 
+    href="/media/screenshots/t/tank-racer-jgg/tank-racer_22.png" data-webp="1"><picture>
+    <source type="image/webp" srcset="/media/screenshots/t/tank-racer-jgg/thumbs/webp/tank-racer_22.webp">
+    <img src="/media/screenshots/t/tank-racer-jgg/thumbs/tank-racer_22.png"
+         alt="Tank Racer 21"
+         loading="lazy"/>
+     </picture>
+</a><a class="item itemListScreenshot thumb c-thumb lb" 
+    href="/media/screenshots/t/tank-racer-jgg/tank-racer_23.png" data-webp="1"><picture>
+    <source type="image/webp" srcset="/media/screenshots/t/tank-racer-jgg/thumbs/webp/tank-racer_23.webp">
+    <img src="/media/screenshots/t/tank-racer-jgg/thumbs/tank-racer_23.png"
+         alt="Tank Racer 22"
+         loading="lazy"/>
+     </picture>
+</a><a class="item itemListScreenshot thumb c-thumb lb" 
+    href="/media/screenshots/t/tank-racer-jgg/tank-racer_24.png" data-webp="1"><picture>
+    <source type="image/webp" srcset="/media/screenshots/t/tank-racer-jgg/thumbs/webp/tank-racer_24.webp">
+    <img src="/media/screenshots/t/tank-racer-jgg/thumbs/tank-racer_24.png"
+         alt="Tank Racer 23"
+         loading="lazy"/>
+     </picture>
+</a><a class="item itemListScreenshot thumb c-thumb lb" 
+    href="/media/screenshots/t/tank-racer-jgg/tank-racer_25.png" data-webp="1"><picture>
+    <source type="image/webp" srcset="/media/screenshots/t/tank-racer-jgg/thumbs/webp/tank-racer_25.webp">
+    <img src="/media/screenshots/t/tank-racer-jgg/thumbs/tank-racer_25.png"
+         alt="Tank Racer 24"
+         loading="lazy"/>
+     </picture>
+</a><a class="item itemListScreenshot thumb c-thumb lb" 
+    href="/media/screenshots/t/tank-racer-jgg/tank-racer_26.png" data-webp="1"><picture>
+    <source type="image/webp" srcset="/media/screenshots/t/tank-racer-jgg/thumbs/webp/tank-racer_26.webp">
+    <img src="/media/screenshots/t/tank-racer-jgg/thumbs/tank-racer_26.png"
+         alt="Tank Racer 25"
+         loading="lazy"/>
+     </picture>
+</a><a class="item itemListScreenshot thumb c-thumb lb" 
+    href="/media/screenshots/t/tank-racer-jgg/tank-racer_27.png" data-webp="1"><picture>
+    <source type="image/webp" srcset="/media/screenshots/t/tank-racer-jgg/thumbs/webp/tank-racer_27.webp">
+    <img src="/media/screenshots/t/tank-racer-jgg/thumbs/tank-racer_27.png"
+         alt="Tank Racer 26"
+         loading="lazy"/>
+     </picture>
+</a><div class="item filler"></div></div><a target="_top" href="/visual/r-5/?u=%2Fgame%2Fmetal_gear%3Fas%3D1823109184" rel="nofollow noreferrer" style="display:flex;justify-content:center;"><img src="/media/img/ogg/games/default/blood_omen_OTcweDI1MA==.jpg" width="970" height="250" style="max-width:100%;height:auto;" /></a>
+    </div>
+
+    <div id="bglb" onclick="hidelb();"></div>
+    <div id="lightlb"></div>
+
+    <script type="text/javascript" src="/media/js/lightbox.min.js?v=1678812993"></script>
+
+
+
+<div class="box">
+
+    <h3 class="rel" id="comAnchor">Comments and reviews</h3>
+
+    <div id="postedComments"><div class="gameComments" id="grCo">                    <div class="gameComment">
+
+                        <div class="voting">
+                            <a href="#" class="vote vote-up" onclick="return __myAbSendVote(93025, 1);">&uarr;</a>
+                            <a href="#" class="vote vote-down" onclick="return __myAbSendVote(93025, 0);">&darr;</a>
+                        </div>
+
+                        <p class='username' style="background-position: left 0px;">
+                            <span class="user">TurboDymoMan</span>
+                            <span class="dateComment">2024-03-19</span>
+                            <span class="voteCount count good">
+                                <span id="voteCount93025">1</span> point
+                            </span>
+                            
+                        </p>
+                        <p class='comment'>Cockpit View</p>
+                    </div>                    <div class="gameComment">
+
+                        <div class="voting">
+                            <a href="#" class="vote vote-up" onclick="return __myAbSendVote(92560, 1);">&uarr;</a>
+                            <a href="#" class="vote vote-down" onclick="return __myAbSendVote(92560, 0);">&darr;</a>
+                        </div>
+
+                        <p class='username' style="background-position: left -24px;">
+                            <span class="user">TurboDymoMan</span>
+                            <span class="dateComment">2024-03-07</span>
+                            <span class="voteCount count good">
+                                <span id="voteCount92560">2</span> points
+                            </span>
+                            
+                        </p>
+                        <p class='comment'>Does Have A Cockpit View</p>
+                    </div>                    <div class="gameComment">
+
+                        <div class="voting">
+                            <a href="#" class="vote vote-up" onclick="return __myAbSendVote(79112, 1);">&uarr;</a>
+                            <a href="#" class="vote vote-down" onclick="return __myAbSendVote(79112, 0);">&darr;</a>
+                        </div>
+
+                        <p class='username' style="background-position: left -48px;">
+                            <span class="user">Sensuallo</span>
+                            <span class="dateComment">2023-02-16</span>
+                            <span class="voteCount count good">
+                                <span id="voteCount79112">1</span> point
+                            </span>
+                            
+                        </p>
+                        <p class='comment'>This game is like a recurring fever dream of mine, I used to play it back in the day on the PSX, and I played it again just now, for better or worse it feels just as it did in the past and still, it's like whatever i played didn't happen or i made it up. <br />
+Gameplay wise, i don't know how they did it, they handle like tanks but not to the point of impossible handling. The game could have been a bit more arcadeish and less constrained by the thematic of the game (tanks) and a drift boost could have made it an even better alternative to MK</p>
+                    </div></div><script type="text/javascript">
+    (function () {
+        var curComId;
+        var r = new XMLHttpRequest();
+        var rUrl = '/game/vote/tank-racer-c3u/';
+        r.onreadystatechange = function () {
+            if (r.readyState != 4) {
+                return;
+            }
+            if (r.status != 200) {
+                if (r.responseText) {
+                    alert('Unable to vote, sorry');
+                } else {
+                    alert('Unable to vote, sorry');
+                }
+                return;
+            }
+            document.getElementById("voteCount" + curComId).innerHTML = r.responseText;
+        };
+        var __myAbSendVote = function (comId, isUp) {
+            curComId = comId;
+            r.open("POST", rUrl, true);
+            r.setRequestHeader("X-Requested-With", "XMLHttpRequest");
+            r.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
+            data = 'comId=' + encodeURIComponent(comId) + '&isUp=' + encodeURIComponent(isUp);
+            r.send(data);
+            return false;
+        };
+        document.__myAbSendVote = __myAbSendVote;
+    })();
+</script></div>
+</div>
+
+
+<div class="box" id="postComment">
+
+    <h3>Write a comment</h3>
+
+    <p>Share your gamer memories, help others to run the game or comment anything you'd like. If you have trouble to run
+        Tank Racer (Windows),
+        read the <a href="/howto/">abandonware guide</a> first!
+    </p>
+
+    <div id="grWCoR"></div>
+
+    <div id="grWCoF">
+        <form class="ajax" action="/game/comment/tank-racer-c3u/" method="post"
+              onsubmit="return __myAbSendComment();">
+            <fieldset>
+                <div class="error">&nbsp;</div>
+                <label for="username">Your nickname:</label>
+                <div class="inputDiv">
+                    <input type="text" id="grWCoU" name="name" value=""/>
+                </div>
+                <label for="comment">Your comment:</label>
+                <div class="textareaDiv">
+                    <textarea id="grWCoC" name="comment"></textarea>
+                </div>
+                            </fieldset>
+
+            <div class="buttons light" id="grWCoB">
+                <a class="button" href="#" onclick="return __myAbSendComment();">Send comment</a>
+            </div>
+
+            <script type="text/javascript">
+                (function () {
+                    var grWCoF = document.getElementById('grWCoF');
+                    var grWCoU = document.getElementById('grWCoU');
+                    var grWCoC = document.getElementById('grWCoC');
+                    var grWCoB = document.getElementById('grWCoB');
+                    var grWCoD = document.getElementById('grWCoD');
+
+                    var r = new XMLHttpRequest();
+                    var rUrl = '/game/comment/tank-racer-c3u/';
+                    r.onreadystatechange = function () {
+                        if (r.readyState != 4) {
+                            return;
+                        }
+                        if (r.status != 200) {
+                            if (r.responseText) {
+                                alert(r.responseText);
+                            } else {
+                                alert('Error');
+                            }
+                            return;
+                        }
+                        grWCoR.innerHTML = r.responseText;
+                        grWCoF.innerHTML = "";
+                    };
+                    var __myAbSendComment = function () {
+                        r.open("POST", rUrl, true);
+                        r.setRequestHeader("X-Requested-With", "XMLHttpRequest");
+                        r.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
+                        data = 'name=' + encodeURIComponent(grWCoU.value) + '&comment=' + encodeURIComponent(grWCoC.value) + (grWCoD && grWCoD.length > 0 ? '&releaseId=' + encodeURIComponent(grWCoD.value) : "");
+                        r.send(data);
+                        return false;
+                    };
+                    document.__myAbSendComment = __myAbSendComment;
+                })();
+            </script>
+
+        </form>
+    </div>
+
+</div>
+
+<div class="box" id="download">
+
+    <h3>Download Tank Racer</h3>
+
+    <p>We may have multiple downloads for few games when different versions are available.
+Also, we try to upload manuals and extra documentation when possible. If you have additional files to contribute or have the game in another language, please contact us!</p><h4 class="platformDownload" id="Windows">Windows Version</h4><div class="e420 e420cb" id="e420CB"><div align="center" data-e420-ad="__336x280" id="cc20e3fa69"><script data-cfasync="false" type="text/javascript">freestar.config.enabled_slots.push({ placementName: "myabandonware_leaderboard_btf", slotId: "cc20e3fa69" });</script></div></div><div class="buttons list"><a href="/download/lm6-tank-racer" class="button download" rel="nofollow">Download</a><span class="">RIP Version <img src='/media/img/lang/en.gif' alt='English version' width='16px' height='11px' />  18 MB</span>
+<a href="/download/lm7-tank-racer" class="button download" rel="nofollow">Download</a><span class="">RIP Version <img src='/media/img/lang/en.gif' alt='English version' width='16px' height='11px' />  99 MB</span>
+<a href="/download/lm5-tank-racer" class="button manual">Manual</a><span class=""><img src='/media/img/lang/en.gif' alt='English version' width='16px' height='11px' />  5 MB</span>
+</div><h4>Game Extras</h4><p>Various files to help you run Tank Racer, apply patches, fixes, maps or miscellaneous utilities.</p><div class="buttons list"><a href="/download/lm8-tank-racer" class="button extras" rel="nofollow">Patch</a><span class="">Patch 1.01 <img src='/media/img/lang/en.gif' alt='English version' width='16px' height='11px' />  529 KB</span>
+</div>
+    <script type="application/ld+json">{
+    "@context": "http:\/\/schema.org",
+    "@type": "VideoGame",
+    "name": "Tank Racer",
+    "url": "https:\/\/www.myabandonware.com\/game\/tank-racer-c3u",
+    "playMode": "SinglePlayer",
+    "applicationCategory": "Game",
+    "gamePlatform": [
+        "Windows"
+    ],
+    "publisher": [
+        "Grolier Interactive Inc."
+    ],
+    "author": [
+        "Glass Ghost"
+    ],
+    "datePublished": "1999",
+    "genre": [
+        "Action",
+        "Racing \/ Driving"
+    ],
+    "fileSize": "18 MB",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.68598",
+        "ratingCount": "50"
+    }
+}</script>
+</div>
+
+    <div class="box">
+
+        <h3>Similar games</h3>
+
+        <p>Fellow retro gamers also downloaded these games:</p>
+
+        <div class="items games">
+            <div class="item itemListGame c-item-game "><div class="thumb c-item-game__thumb js-gamelist"><form method="post" action="/favorites/add" class="c-gamelist-controls c-gamelist-controls--browsing c-gamelist-controls--nigl">
+            <input type="hidden" name="gameIndex" class="c-gamelist-controls__input" value="/game/london-racer-ckk"/>
+            <button type="submit" class="c-gamelist-controls__button js-gamelist-add" title="Add to favorites">Add to favorites</button>
+            </form><a class="c-thumb__link" href="/game/london-racer-ckk">
+        <picture><source type="image/webp" srcset="/media/screenshots/l/london-racer-jz4/thumbs/webp/london-racer_3.webp">
+        <img class="c-thumb__img" alt="London Racer abandonware" src="/media/screenshots/l/london-racer-jz4/thumbs/london-racer_3.png" data-alias="london-racer" data-thumbs="#3@#1@#2@#4@#5"  loading="lazy" />
+        </picture></a></div><a class="name c-item-game__name" href="/game/london-racer-ckk">London Racer</a><span class="c-item-game__platforms">Win</span><span class="c-item-game__year">1999</span></div><div class="item itemListGame c-item-game "><div class="thumb c-item-game__thumb js-gamelist"><form method="post" action="/favorites/add" class="c-gamelist-controls c-gamelist-controls--browsing c-gamelist-controls--nigl">
+            <input type="hidden" name="gameIndex" class="c-gamelist-controls__input" value="/game/taxi-racer-eyj"/>
+            <button type="submit" class="c-gamelist-controls__button js-gamelist-add" title="Add to favorites">Add to favorites</button>
+            </form><a class="c-thumb__link" href="/game/taxi-racer-eyj">
+        <picture><source type="image/webp" srcset="/media/screenshots/t/taxi-racer-n8l/thumbs/webp/taxi-racer_10.webp">
+        <img class="c-thumb__img" alt="Taxi Racer abandonware" src="/media/screenshots/t/taxi-racer-n8l/thumbs/taxi-racer_10.png" data-alias="taxi-racer" data-thumbs="#10@#1@#2@#3@#4@#5@#6@#7@#8@#9@#11@#12@#13@#14@#15@#16@#17@#18@#19"  loading="lazy" />
+        </picture></a></div><a class="name c-item-game__name" href="/game/taxi-racer-eyj">Taxi Racer</a><span class="c-item-game__platforms">Win</span><span class="c-item-game__year">2001</span></div><div class="item itemListGame c-item-game "><div class="thumb c-item-game__thumb js-gamelist"><form method="post" action="/favorites/add" class="c-gamelist-controls c-gamelist-controls--browsing c-gamelist-controls--nigl">
+            <input type="hidden" name="gameIndex" class="c-gamelist-controls__input" value="/game/lego-racers-2-bcp"/>
+            <button type="submit" class="c-gamelist-controls__button js-gamelist-add" title="Add to favorites">Add to favorites</button>
+            </form><a class="c-thumb__link" href="/game/lego-racers-2-bcp">
+        <picture><source type="image/webp" srcset="/media/screenshots/l/lego-racers-2-img/thumbs/webp/lego-racers-2_9.webp">
+        <img class="c-thumb__img" alt="LEGO Racers 2 abandonware" src="/media/screenshots/l/lego-racers-2-img/thumbs/lego-racers-2_9.png" data-alias="lego-racers-2" data-thumbs="#9@#1@#2@#3@#4@#5@#6@#7@#8@#10@#11@#12@#13@#14@#15@#16@#17"  loading="lazy" />
+        </picture></a></div><a class="name c-item-game__name" href="/game/lego-racers-2-bcp">LEGO Racers 2</a><span class="c-item-game__platforms">Win</span><span class="c-item-game__year">2001</span></div><div class="item itemListGame c-item-game "><div class="thumb c-item-game__thumb js-gamelist"><form method="post" action="/favorites/add" class="c-gamelist-controls c-gamelist-controls--browsing c-gamelist-controls--nigl">
+            <input type="hidden" name="gameIndex" class="c-gamelist-controls__input" value="/game/tanktics-7pr"/>
+            <button type="submit" class="c-gamelist-controls__button js-gamelist-add" title="Add to favorites">Add to favorites</button>
+            </form><a class="c-thumb__link" href="/game/tanktics-7pr">
+        <picture><source type="image/webp" srcset="/media/screenshots/t/tanktics-bx0/thumbs/webp/tanktics_4.webp">
+        <img class="c-thumb__img" alt="Tanktics abandonware" src="/media/screenshots/t/tanktics-bx0/thumbs/tanktics_4.png" data-alias="tanktics" data-thumbs="#4@#1@#2@#3@#5@#6@#7@#8"  loading="lazy" />
+        </picture></a></div><a class="name c-item-game__name" href="/game/tanktics-7pr">Tanktics</a><span class="c-item-game__platforms">Win</span><span class="c-item-game__year">1999</span></div><div class="item itemListGame c-item-game "><div class="thumb c-item-game__thumb js-gamelist"><form method="post" action="/favorites/add" class="c-gamelist-controls c-gamelist-controls--browsing c-gamelist-controls--nigl">
+            <input type="hidden" name="gameIndex" class="c-gamelist-controls__input" value="/game/3-d-ultra-radio-control-racers-dv7"/>
+            <button type="submit" class="c-gamelist-controls__button js-gamelist-add" title="Add to favorites">Add to favorites</button>
+            </form><a class="c-thumb__link" href="/game/3-d-ultra-radio-control-racers-dv7">
+        <picture><source type="image/webp" srcset="/media/screenshots/0-9/3-d-ultra-radio-control-racers-loz/thumbs/webp/3-d-ultra-radio-control-racers_9.webp">
+        <img class="c-thumb__img" alt="3-D Ultra Radio Control Racers abandonware" src="/media/screenshots/0-9/3-d-ultra-radio-control-racers-loz/thumbs/3-d-ultra-radio-control-racers_9.png" data-alias="3-d-ultra-radio-control-racers" data-thumbs="#9@#1@#2@#3@#4@#5@#6@#7@#8@#10@#11@#12@#13@#14@#15@#16@#17"  loading="lazy" />
+        </picture></a></div><a class="name c-item-game__name" href="/game/3-d-ultra-radio-control-racers-dv7">3-D Ultra Radio Control Racers</a><span class="c-item-game__platforms">Win</span><span class="c-item-game__year">1999</span></div><div class="item itemListGame c-item-game "><div class="thumb c-item-game__thumb js-gamelist"><form method="post" action="/favorites/add" class="c-gamelist-controls c-gamelist-controls--browsing c-gamelist-controls--nigl">
+            <input type="hidden" name="gameIndex" class="c-gamelist-controls__input" value="/game/stunt-track-racer-s2"/>
+            <button type="submit" class="c-gamelist-controls__button js-gamelist-add" title="Add to favorites">Add to favorites</button>
+            </form><a class="c-thumb__link" href="/game/stunt-track-racer-s2">
+        <picture>
+        <img class="c-thumb__img" alt="Stunt Track Racer abandonware" src="/media/screenshots/s/stunt-track-racer-s2/thumbs/stunt-track-racer_8.png" data-alias="stunt-track-racer" data-thumbs="#8@#1@#2@#3@#4@#5@#6@#7@#9@#10@#11@#12@#13@#14@#15"  loading="lazy" />
+        </picture></a></div><a class="name c-item-game__name" href="/game/stunt-track-racer-s2">Stunt Track Racer</a><span class="c-item-game__platforms">DOS, C64, Amiga, Amstrad CPC, Atari ST</span><span class="c-item-game__year">1989</span></div><div class="item filler"></div>        </div>
+
+    </div>
+
+
+        </div>
+
+        
+        
+            <div id="l">
+
+                
+                <div class="menu socials">
+                    <div class="top">
+                        <span>Follow Us!</span>
+                    </div>
+
+                    <div class="in">
+                                                <div class="socialButton facebook">
+                            <a href="https://www.facebook.com/myabandonware" target="_blank" rel="nofollow" class="icon">
+                                <span class="fbC">8,300</span>
+                            </a>
+                            <a id="fakeFbLike" target="_blank" rel="nofollow" href="https://www.facebook.com/myabandonware">
+                                <span class="tick"></span>
+                                <span class="like">Like</span>
+                            </a>
+                        </div>
+                        <div class="socialButton twitter">
+                            <a href="https://twitter.com/myabandonware" target="_blank" rel="nofollow" class="icon">
+                                <span class="twC">7,600</span>
+                            </a>
+                            <a id="fakeTwFollw" target="_blank" rel="nofollow" href="https://twitter.com/myabandonware">
+                                <span class="bird"></span>
+                                <span class="follow">Follow</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="menu newsletter">
+                    <div class="top">
+                        <span>Monthly Newsletter</span>
+                    </div>
+                    <div class="in">
+                        <form id="formSubscribeSide" method="post" action="/subscribe/">
+                            <label id="formSubscribeSideIntro" for="inputNlMailSide">Hand picked games every month</label>
+                            <input type="text" id="inputNlMailSide" name="inputNlMailSide" placeholder="Your email">
+                            <button id="inputNlMailSideBtn" class="c-button">OK</button>
+                            <div id="formSubscribeSideMsg" class="c-newsletter-subscribe-message"></div>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="support menu">
+                    <a class="support-us" href="https://www.buymeacoffee.com/myabandonware" title="Ad-free browsing included">
+                        <img src="/media/css/img/support-us.png" loading="lazy" alt="Support Us on BuyMeACoffee" width="300" height="72"/>
+                    </a>
+                </div>
+
+                                    <div class="menu">
+                        <div class="e420" id="e420ST"><div align="center" data-e420-ad="__300x600" id="cc7a991beb"><script data-cfasync="false" type="text/javascript">freestar.config.enabled_slots.push({ placementName: "myabandonware_medrec_right_atf", slotId: "cc7a991beb" });</script></div></div>                    </div>
+                
+
+                <div class="menu topDownloads">
+                    <div class="top">
+                        <span>Top downloads</span>
+                    </div>
+                    <ul>
+                        <li><a href="/game/sid-meier-s-civilization-1nj" class="a1">Sid Meier's Civilization</a></li><li><a href="/game/need-for-speed-ii-se-a4a" class="a2">Need for Speed II: SE</a></li><li><a href="/game/oregon-trail-deluxe-1h9" class="a3">Oregon Trail Deluxe</a></li><li><a href="/game/the-incredible-machine-1mg" class="">The Incredible Machine</a></li><li><a href="/game/mario-teaches-typing-1gl" class="">Mario Teaches Typing</a></li><li><a href="/game/the-house-of-the-dead-bed" class="">The House of the Dead</a></li><li><a href="/game/prince-of-persia-pd" class="">Prince of Persia</a></li><li><a href="/game/silent-hill-2-restless-dreams-bgd" class="">Silent Hill 2: Restless Dreams</a></li><li><a href="/game/simant-197" class="">SimAnt</a></li><li><a href="/game/yu-gi-oh-power-of-chaos-yugi-the-destiny-bex" class="">Yu-Gi-Oh!: Power of Chaos - Yugi the Destiny</a></li><li><a href="/game/the-house-of-the-dead-2-beg" class="">The House of the Dead 2</a></li><li><a href="/game/rogue-4n" class="">Rogue</a></li><li><a href="/game/dune-ii-the-building-of-a-dynasty-1e7" class="">Dune II: The Building of a Dynasty</a></li><li><a href="/game/lemmings-16x" class="">Lemmings</a></li><li><a href="/game/the-typing-of-the-dead-bee" class="">The Typing of the Dead</a></li>                    </ul>
+                    <div class="bottom">
+                        <a href="/game/" title="See the Top 40 Games">List of top downloads</a>
+                    </div>
+                </div>
+
+                                    <div class="menu">
+                        <div class="e420" id="e420SB"><div align="center" data-e420-ad="__300x600" id="45502444ee"><script data-cfasync="false" type="text/javascript">freestar.config.enabled_slots.push({ placementName: "myabandonware_medrec_right_btf", slotId: "45502444ee" });</script></div></div>                    </div>
+                
+
+                <div class="menu mostRecent">
+                    <div class="top">
+                        <span>Latest releases</span>
+                    </div>
+                    <ul>
+                        <li><a href="/game/panel-panic-qko" class="a1">Panel Panic</a></li><li><a href="/game/pairs-qkn" class="a2">Pairs</a></li><li><a href="/game/pachinko-u-f-o-qkm" class="a3">Pachinko-U.F.O.</a></li><li><a href="/game/pachicom-qkl" class="">Pachicom</a></li><li><a href="/game/outroyd-qkj" class="">Outroyd</a></li>                    </ul>
+                    <div class="bottom">
+                        List of
+                        <a href="/browse/recent/">new games here</a>
+                        <br/>Follow us on
+                        <a href="https://www.facebook.com/myabandonware" class="facebook">Facebook</a>
+                        or
+                        <a href="https://twitter.com/myabandonware" class="twitter">Twitter</a>
+                    </div>
+                </div>
+
+                <div class="menu needScreens">
+                    <div class="top">
+                        <span>Screenshots needed</span>
+                    </div>
+                    <ul>
+                        <li><a href="/game/zarjaz-o2x" class="">Zarjaz</a></li><li><a href="/game/hms-cobra-convois-pour-mourmansk-6ue" class="">HMS Cobra: Convois pour Mourmansk</a></li><li><a href="/game/pocket-fighter-n6q" class="">Pocket Fighter</a></li>                    </ul>
+                    <div class="bottom">
+                        Read our
+                        <a href="/screenshots/">screenshot tutorial</a>
+                    </div>
+                </div>
+
+                                    <div id="e420STD" class="e420st"><div align="center" data-e420-ad="" id="1103a4df8d"><script data-cfasync="false" type="text/javascript">freestar.config.enabled_slots.push({ placementName: "myabandonware_medrec_right_btf_2", slotId: "1103a4df8d" });</script></div></div>                
+            </div>
+
+            <div class="cb"></div>
+
+        
+    </div>
+
+    <div id="f" class="c">
+        <p>
+            <a onclick="window.__tcfapi('displayConsentUi', 2, function() {} );" href="javascript:void(0);">Ad Consent</a>
+            <a href="/terms/">Terms</a>
+            <a href="/about/">About</a>
+            <a href="/contact/">Contact</a>
+            <a href="/faq/">FAQ</a>
+            <a href="/useful/">Useful links</a>
+            <a href="/contribute/">Contribute</a>
+            <a href="/screenshots/">Taking screenshots</a>
+            <a href="/howto/">How to play</a>
+        </p>
+
+        <a class="myab" href="/">MyAbandonware</a>
+
+        <a class="utopiaweb" title="Visit utopiaweb website" href="http://utopiaweb.fr/">utopiaweb</a>
+    </div>
+
+</div>
+
+<style>
+.e420cb .wgl img{width:100%;max-width:468px}.e420 img[width="1"]{position:absolute}.e420cb{position:relative;width:646px;text-align:center;margin-bottom:24px;overflow:hidden}.e420cb > div{margin:0 auto}.e420cb img{max-width:100%;width:auto}.e420pb{width:100%;text-align:center}#l .e420 .item + .item{margin-top:20px}.e420st{position:-webkit-sticky;position:sticky;top:20px;min-height:600px}.e420st:empty{display:none}.item.e420{width:300px;position:relative;padding-top:20px;margin-bottom:36px;margin-top:12px}.item.e420:after{display:block;content:"Ads";position:absolute;top:-6px;left:0;width:100%;text-align:center;font-family:"Lucida Grande", Arial, sans-serif;color:#444;font-size:11px}.item.e420 img{width:300px}.item.e420-1{margin-left:0}.item.e420-2{margin-right:0}.item.e420-3{display:none}#e420ST{min-height:250px}#e420ST:empty{display:none}#e420SB{min-height:600px}#e420SB:empty{display:none}#e420CLX{width:100%;min-height:250px}#e420CLX:empty{display:none}#e420CLX.flx{display:flex;justify-content:space-between}#e420CL1 > a > img,
+#e420CL2 > a > img{width:300px}#e420CT{text-align:center}#e420CT > div{margin:0 auto}#e420CT .item{text-align:left}#e420CT img.f{display:inline-block}#e420CT img.s{display:none}#e420CLX.item.ba:after{width:100%}#e420ST > a > img,
+#e420SB > a > img{width:300px}@media screen and (max-width:1020px){.e420cb{width:100%}}@media screen and (max-width:860px){.e420cb{width:100%}.e420cb .wgl img{max-width:728px}}@media screen and (max-width:670px){.e420cb{width:104%;margin-left:-2%}}@media screen and (min-width:1350px) and (min-height:600px){.e420cb{width:970px}.e420cb .wgl img{max-width:728px}}@media screen and (max-width:330px){\##e420CT img.s{display:inline-block}\##e420CT img.f{display:none}}</style>
+<script type="application/javascript" src="/media/js/gogfill.min.js?v=1713600000"
+        defer></script>
+
+</body>
+</html>
+
